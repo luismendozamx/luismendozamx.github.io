@@ -1,9 +1,37 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+	Author: Luis Mendoza
    ========================================================================== */
 
+
+
+/* =================================Global=============================== */
+
+
+
+/* =================================Nav================================== */
+
+#mainNav{
+	width: 80px;
+	height: 100%;
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	float: left;
+}
+
+/* ============================Main Container============================ */
+
+#mainContainer{
+	float: right;
+	height: 2000px;
+	top: 0;
+	width: 100%;
+	border-bottom: 10px solid #eee;
+	border-top: 10px solid #eee; 
+}
 
 
 
