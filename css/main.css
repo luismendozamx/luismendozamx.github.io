@@ -18,7 +18,8 @@
 
 #mainNav{
 	height: 100%;
-	background-color: #000;
+	min-width: 60px;
+	background-color: #404551;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -27,20 +28,39 @@
 
 #menuLogo{
 	margin-top: 30px;
-	margin-bottom: 30px;
 }
 
-.sideMenuItem i{
-	color: #f2f2f2 !important;
+#menuButton a{
+	margin-top: 0px;
+	margin-bottom: 15px;
+	width: 100%
 }
 
-.nav-stacked li a:hover{
-	background-color: #000 !important;
-	color: #ddd !important;
+.sideMenuItem{
+	margin-top: 15px !important;
+	color: #727A8F !important;
 }
 
-.nav-stacked li a i:hover{
-	color: #ddd !important;
+.sideMenuItem a{
+	color: #727A8F !important;
+}
+
+.sideMenuItem:hover, .sideMenuItem a:hover{
+	color: #C4C5C9 !important;
+	background-color: #404551 !important;
+}
+
+.menuHidden{
+	padding-left: 10px;
+	vertical-align: top;
+	color: #727A8F !important;
+	display: none;
+	font-size: 18px; 
+}
+
+#menuList, #menuButtonList, #menuLogo{
+	padding-left: 10px;
+	margin-right: 10px;
 }
 
 /* ============================Main Container============================ */
@@ -50,8 +70,13 @@
 	height: 2000px;
 	top: 0;
 	width: 100%;
-	border-bottom: 10px solid #eee;
-	border-top: 10px solid #eee; 
+}
+
+.wrap{
+	width: 100%;
+	height: 100%;
+	/*border-bottom: 10px solid #eee;
+	border-top: 10px solid #eee;*/
 }
 
 

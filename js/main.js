@@ -2,6 +2,7 @@
 $(document).ready( function() {
 
 	resizeMainContainer();
+	$('.menuToggle').tooltip();
 
 });
 
@@ -18,6 +19,14 @@ function resizeMainContainer(){
 
 	$('#mainContainer').width(windowWidth - navWidth);
 	$('#mainContainer').offset({left: navWidth + "px"});
+	$('.menuToggle').tooltip();
 }
 
-$('.sideMenuItem').tooltip();
+function allLoaded(){
+	resizeMainContainer();
+	$('.menuToggle').tooltip();
+}
+
+$('#menuButton').click( function() {
+	$('.menuHidden').toggle("fast");
+});
