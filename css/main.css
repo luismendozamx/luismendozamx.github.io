@@ -8,18 +8,39 @@
 
 /* =================================Global=============================== */
 
-
+.center{
+ 	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+}
 
 /* =================================Nav================================== */
 
 #mainNav{
-	width: 80px;
 	height: 100%;
 	background-color: #000;
 	position: fixed;
 	top: 0;
 	left: 0;
 	float: left;
+}
+
+#menuLogo{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sideMenuItem i{
+	color: #f2f2f2 !important;
+}
+
+.nav-stacked li a:hover{
+	background-color: #000 !important;
+	color: #ddd !important;
+}
+
+.nav-stacked li a i:hover{
+	color: #ddd !important;
 }
 
 /* ============================Main Container============================ */

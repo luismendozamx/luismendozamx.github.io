@@ -19,3 +19,5 @@ function resizeMainContainer(){
 	$('#mainContainer').width(windowWidth - navWidth);
 	$('#mainContainer').offset({left: navWidth + "px"});
 }
+
+$('.sideMenuItem').tooltip();
