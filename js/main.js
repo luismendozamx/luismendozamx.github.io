@@ -29,4 +29,5 @@ function allLoaded(){
 
 $('#menuButton').click( function() {
 	$('.menuHidden').toggle("fast");
+	resizeMainContainer();
 });
