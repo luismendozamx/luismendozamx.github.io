@@ -31,3 +31,10 @@ $('#menuButton').click( function() {
 	$('.menuHidden').toggle("fast");
 	resizeMainContainer();
 });
+
+$('#menuButtonTablet').click( function() {
+	$('.menuHidden').toggle("fast");
+	resizeMainContainer();
+});
+
+

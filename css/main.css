@@ -14,6 +14,14 @@
   	text-align: center;
 }
 
+.left{
+	float: left !important;
+}
+
+.right{
+	float: right !important;
+}
+
 /* =================================Nav================================== */
 
 #mainNav{
@@ -25,6 +33,7 @@
 	top: 0;
 	left: 0;
 	float: left;
+
 }
 
 #menuLogo{
@@ -38,7 +47,6 @@
 }
 
 .sideMenuItem{
-	margin-top: 15px !important;
 	color: #727A8F !important;
 }
 
@@ -73,6 +81,24 @@
 	margin-top: 20px;
 }
 
+#mobileToggle{
+	height: 40px;
+	width: 60px;
+	background-color: #404551;
+	position: fixed;
+	z-index: 1000;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+
+}
+
+.menuMobile{
+	padding-left: 10px;
+	vertical-align: top;
+	color: #727A8F !important;
+	font-size: 18px; 
+}
 
 /* ============================Main Container============================ */
 
@@ -91,6 +117,23 @@
 }
 
 
+/* ============================Media Queries============================ */
+
+@media only screen and (max-width: 992px){
+	#menuList, #menuButtonList, #menuLogo, #menuSocial{
+		padding-left: 15px;
+		margin-right: 5px;
+	}
+
+	.nav>li>a{
+		padding-right: 4px;
+		padding-left: 4px;
+	}
+
+	.menuHidden{
+		font-size: 14px;
+	}
+}
 
 
 
