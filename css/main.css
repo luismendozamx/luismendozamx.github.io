@@ -22,6 +22,10 @@
 	float: right !important;
 }
 
+.ml-20{
+	margin-left: 20px !important;
+}
+
 /* =================================Nav================================== */
 
 #mainNav{
@@ -98,6 +102,13 @@
 	vertical-align: top;
 	color: #727A8F !important;
 	font-size: 18px; 
+}
+
+.mainNavMobile{
+
+}
+
+.mobileTopNav{
 }
 
 /* ============================Main Container============================ */
