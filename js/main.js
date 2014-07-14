@@ -14,8 +14,9 @@ $(window).resize( function(){
 
 function resizeMainContainer(){
 
-	windowWidth = $(window).width();
-	navWidth = 0;
+	windowWidth 	= $(window).width();
+	windowHeight 	= $(window).height();
+	navWidth 		= 0;
 
 	if(windowWidth > 911){
 		navWidth = $('#mainNav').width();
@@ -28,6 +29,11 @@ function resizeMainContainer(){
 			navWidth = $('.mainNavMobile').width();
 		}
 		$('#mobileTopNav').css("margin-left", navWidth);
+	}
+
+	if(windowHeight < 400){
+		$('#mainNav').css("overflow", "scroll");
+		console.log($('#mainNav').css("overflow"));
 	}
 
 	$('#mainContainer').width(windowWidth - navWidth);
