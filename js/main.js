@@ -14,9 +14,9 @@ $(window).resize( function(){
 
 function resizeMainContainer(){
 
-	windowWidth 	= $(window).width();
-	windowHeight 	= $(window).height();
-	navWidth 		= 0;
+	var windowWidth 	= $(window).width();
+	var windowHeight 	= $(window).height();
+	var navWidth 		= 0;
 
 	if(windowWidth > 911){
 		navWidth = $('#mainNav').width();
@@ -39,6 +39,7 @@ function resizeMainContainer(){
 	$('#mainContainer').width(windowWidth - navWidth);
 	$('#mainContainer').offset({left: navWidth + "px"});
 	$('.menuToggle').tooltip();
+	
 }
 
 function allLoaded(){
@@ -47,13 +48,11 @@ function allLoaded(){
 }
 
 $('#menuButton').click( function() {
-	$('.menuHidden').toggle("fast");
-	resizeMainContainer();
+	$('.menuHidden').toggle(250, resizeMainContainer);
 });
 
 $('#menuButtonTablet').click( function() {
-	$('.menuHidden').toggle("fast");
-	resizeMainContainer();
+	$('.menuHidden').toggle(250, resizeMainContainer);
 });
 
 $('#mobileNavButton').click( function(){
