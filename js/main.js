@@ -3,12 +3,15 @@ $(document).ready( function() {
 
 	resizeMainContainer();
 	$('.menuToggle').tooltip();
+	fullScreen($(".fullScreen"));
 
 });
 
 $(window).resize( function(){
 
 	resizeMainContainer();
+	$('.menuToggle').tooltip();
+	fullScreen($(".fullScreen"));
 	
 });
 
@@ -47,12 +50,23 @@ function allLoaded(){
 	$('.menuToggle').tooltip();
 }
 
+function fullScreen(array){
+	var altura = $(window).height();
+
+	for (var i = 0; i < array.length; i++) {
+		console.log(array[i]);
+		$(array[i]).height(altura+"px");
+	}
+}
+
 $('#menuButton').click( function() {
-	$('.menuHidden').toggle(250, resizeMainContainer);
+	//$('.menuHidden').toggle(250, resizeMainContainer);
+	$('.menuHidden').toggle(250);
 });
 
 $('#menuButtonTablet').click( function() {
-	$('.menuHidden').toggle(250, resizeMainContainer);
+	//$('.menuHidden').toggle(250, resizeMainContainer);
+	$('.menuHidden').toggle(250);
 });
 
 $('#mobileNavButton').click( function(){
