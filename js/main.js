@@ -52,11 +52,9 @@ function allLoaded(){
 
 function fullScreen(array){
 	var altura = $(window).height();
-
-	for (var i = 0; i < array.length; i++) {
-		console.log(array[i]);
-		$(array[i]).height(altura+"px");
-	}
+	$('.fullScreen').height(altura);
+	//$('.fullScreen').css("padding", "0 0 0 0")
+	//$('.fullScreen').css("height", "100%")
 }
 
 $('#menuButton').click( function() {
