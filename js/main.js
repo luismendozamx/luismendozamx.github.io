@@ -23,15 +23,21 @@ function resizeMainContainer(){
 
 	if(windowWidth > 911){
 		navWidth = $('#mainNav').width();
+		$('#mainContainer').width(windowWidth - navWidth);
+		$('#mainContainer').offset({left: navWidth + "px"});
 	}else if(windowWidth > 768){
 		navWidth = $('.mainNavTablet').width();
+		$('#mainContainer').width(windowWidth - navWidth);
+		$('#mainContainer').offset({left: navWidth + "px"});
 	}else{
 		if($('.mainNavMobile').hasClass('hidden')){
-			navWidth = 0;
+			navWidth = 15;
 		}else{
 			navWidth = $('.mainNavMobile').width();
+			navWidth += 15;
 		}
-		$('#mobileTopNav').css("margin-left", navWidth);
+		$('#mobileTopNav').css("left", navWidth + "px");
+		console.log($('#mobileTopNav').offset());
 	}
 
 	if(windowHeight < 400){
@@ -39,10 +45,7 @@ function resizeMainContainer(){
 		console.log($('#mainNav').css("overflow"));
 	}
 
-	$('#mainContainer').width(windowWidth - navWidth);
-	$('#mainContainer').offset({left: navWidth + "px"});
 	$('.menuToggle').tooltip();
-	
 }
 
 function allLoaded(){
