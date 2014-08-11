@@ -67,7 +67,7 @@ $('#menuButtonTablet').click( function() {
 	$('.menuHidden').toggle(250);
 });
 
-$('#mobileNavButton').click( function(){
+$('#mobileTopNav').click( function(){
 	if($('.mainNavMobile').hasClass('hidden')){
 		$('.mainNavMobile').removeClass('hidden');
 		resizeMainContainer();
