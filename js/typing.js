@@ -26,3 +26,6 @@ function startTyping(waitTime){
 		$('#mainInput').delay(1000).sendkeys('r');
 	}, waitTime);
 }
+
+function typeWord(word, delay){
+}
