@@ -40,7 +40,7 @@ function resizeMainContainer(){
 		console.log($('#mobileTopNav').offset());
 	}
 
-	if(windowHeight < 400){
+	if(windowHeight < 420){
 		$('#mainNav').css("overflow", "scroll");
 		console.log($('#mainNav').css("overflow"));
 	}
@@ -55,9 +55,11 @@ function allLoaded(){
 
 function fullScreen(array){
 	var altura = $(window).height();
-	$('.fullScreen').height(altura);
-	//$('.fullScreen').css("padding", "0 0 0 0")
-	//$('.fullScreen').css("height", "100%")
+	if(altura < 420){
+		$('.fullScreen').height(430);
+	}else{
+		$('.fullScreen').height(altura);
+	}
 }
 
 $('#menuButton').click( function() {

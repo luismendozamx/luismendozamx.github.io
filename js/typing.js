@@ -14,18 +14,15 @@ $(document).ready(function(){
 })(jQuery)
 
 function startTyping(waitTime){
-	setTimeout(function(){
-		$('#mainInput').delay(1000).sendkeys('d');
-		$('#mainInput').delay(1000).sendkeys('e');
-		$('#mainInput').delay(1000).sendkeys('v');
-		$('#mainInput').delay(1000).sendkeys('e');
-		$('#mainInput').delay(1000).sendkeys('l');
-		$('#mainInput').delay(1000).sendkeys('o');
-		$('#mainInput').delay(1000).sendkeys('p');
-		$('#mainInput').delay(1000).sendkeys('e');
-		$('#mainInput').delay(1000).sendkeys('r');
-	}, waitTime);
+	setTimeout(typeWord('developer', 200), waitTime);
 }
 
 function typeWord(word, delay){
+	for(var i = 0; i < word.length; i++){
+		setTimeout(typeLetter( word.charAt(i)) , delay );
+	}
+}
+
+function typeLetter(x){
+	$('#mainInput').sendkeys(x);
 }
