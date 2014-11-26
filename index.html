@@ -15,6 +15,9 @@
         <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
 
+        <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
@@ -24,29 +27,32 @@
 
         <div id="nav">
 
-          <div id="nav-container" class="container">
-
+          <div id="nav-close" class="container">
             <div class="col-xs-12">
               <i class="fa fa-times fa-2x right"></i>
             </div>
+          </div>
 
-            <div class="col-xs-12">
-              <h1 class="center">LUIS MENDOZA</h1>
-              <h3 class="center w300">Developer | Photographer | Entrepreneur</h3>
+          <div id="nav-container" class="container">
+    
+            <div class="row">
+                <div class="col-xs-12">
+                  <h1 id="nav-title" class="center">LUIS MENDOZA</h1>
+                  <h3 id="nav-tagline" class="center sans thin">Developer | Photographer | Entrepreneur</h3>
 
-              <ul id="nav-links" class="nav nav-pills nav-stacked center">
-                <li><a href="">About</a></li>
-                <li><a href="">Development</a></li>
-                <li><a href="">Photography</a></li>
-                <li><a href="">Video</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-              </ul>
+                  <ul id="nav-links" class="nav nav-pills nav-stacked center">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Development</a></li>
+                    <li><a href="">Photography</a></li>
+                    <li><a href="">Video</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul>
+                </div>
             </div>
 
-            <div class="col-sm-offset-4 col-sm-4 col-xs-12">
-
-              <ul id="nav-social" class="nav nav-pills nav-justified center">
+            <div class="row">       
+              <ul id="nav-social" class="nav nav-pills center">
                 <li><a href=""><i class="fa fa-github fa-2x"></i></a></li>
                 <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
                 <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
@@ -60,13 +66,21 @@
           
         </div>
 
-        <div id="main-container">
+        <div id="main-container" style="background-image:url(img/home.jpg)">
+
+          <div id="menu">
+            <div class="container">
+              <div class="col-xs-12">
+                <h3 class="left">LUIS MENDOZA</h3>
+                <i id="nav-toggle" class="fa fa-bars fa-2x right"></i>
+              </div>
+            </div>
+          </div>
           
         </div>
     
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery-1.11.1.min.js"></script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
