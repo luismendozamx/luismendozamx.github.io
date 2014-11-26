@@ -3,10 +3,14 @@ $(document).ready( function() {
 
 	$( "#nav-toggle" ).click(function() {
 		fitNavigation();
+		$('#nav').css("position", "absolute");
+		$('#main-container').css("position", "fixed");
 		$( "#nav" ).fadeIn( "medium", "swing", fitNavigation );
 	});
 
 	$( "#nav-close" ).click(function() {
+		$('#nav').css("position", "fixed");
+		$('#main-container').css("position", "relative");
 		$( "#nav" ).fadeOut( "fast" );
 	});
 
