@@ -107,17 +107,24 @@ p, a, .sans{
 	width: 24%;
 }
 
+#nav-toggle{
+	vertical-align: middle;
+	margin-top: 20px;
+	color: #000;
+	cursor: pointer;
+}
+
 #menu{
 	width: 100%;
 	position: fixed;
 	background-color: #fff;
 }
 
-#nav-toggle{
-	vertical-align: middle;
-	margin-top: 20px;
+#menu a{
 	color: #000;
 }
+
+
 
 
 /* ============================Media Queries============================ */
