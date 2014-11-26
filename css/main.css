@@ -22,24 +22,44 @@
 	float: right !important;
 }
 
+.w300{
+	font-weight: 300;
+}
+
+/* ==========================================================================
+	Navigation
+   ========================================================================== */
+#nav{
+	width: 100%;
+	background-color: rgb(42, 42, 42);
+	background-color: rgba(42, 42, 42, 0.6);
+	color: #fff;
+}
+
+#nav a{
+	color: #fff;
+}
+
+#nav .container{
+	padding-top: 100px;
+}
+
+#nav .nav-pills li a:hover{
+	background-color: transparent;
+	color: #eee;
+	text-decoration: underline;
+}
 
 
 /* ============================Media Queries============================ */
 
-@media only screen and (max-width: 992px){
-	#menuList, #menuButtonList, #menuLogo, #menuSocial{
-		padding-left: 15px;
-		margin-right: 5px;
+@media only screen and (max-width: 778px){
+
+	#nav-social>.nav-justified{
+		width: auto;
 	}
 
-	.nav>li>a{
-		padding-right: 4px;
-		padding-left: 4px;
-	}
 
-	.menuHidden{
-		font-size: 14px;
-	}
 }
 
 
