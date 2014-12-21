@@ -29,3 +29,15 @@ function fitNavigation(){
 	$('#nav-container').css( "padding-top", (windowHeight - navHeight - 48)/2 + "px" );
 	$('#nav-container').css( "padding-bottom", (windowHeight - navHeight - 48)/2 + "px" );
 }
+
+$(window).scroll(function() {
+
+    if ($("#menu").offset().top > 50) {
+        $("#menu").addClass("white");
+        $("#menu").removeClass("transparent");
+    } else {
+        $("#menu").addClass("transparent");
+        $("#menu").removeClass("white");
+    }
+
+});

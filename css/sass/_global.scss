@@ -1,0 +1,49 @@
+/* ================================================================ 
+  Global Styles
+   ================================================================ */
+
+.center{
+ 	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+}
+
+.left{
+	float: left !important;
+}
+
+.right{
+	float: right !important;
+}
+
+.fill{
+	width: 100%;
+}
+
+.light{
+	font-weight: 300;
+}
+
+.thin{
+	font-weight: 100;
+}
+
+body{
+	@include transition(all 0.5s ease-in);
+}
+
+/* ================================================================ 
+  Typography
+   ================================================================ */
+
+h1, h2, h3, h4, h5, .serif{
+	font-family: 'Merriweather', serif;
+}
+
+p, a, .sans{
+	font-family: 'Roboto'
+}
+
+*{
+	font-family: 'Roboto'
+}

@@ -1,160 +1,118 @@
-
-
 /* ==========================================================================
 	Author: Luis Mendoza
    ========================================================================== */
+/* ================================================================ 
+  Global Styles
+   ================================================================ */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
 
+.left {
+  float: left !important; }
 
+.right {
+  float: right !important; }
 
-/* =================================Global Styles=============================== */
+.fill {
+  width: 100%; }
 
-.center{
- 	margin-left: auto;
-  	margin-right: auto;
-  	text-align: center;
-}
+.light {
+  font-weight: 300; }
 
-.left{
-	float: left !important;
-}
+.thin {
+  font-weight: 100; }
 
-.right{
-	float: right !important;
-}
+body {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in; }
 
-.fill{
-	width: 100%;
-}
+/* ================================================================ 
+  Typography
+   ================================================================ */
+h1, h2, h3, h4, h5, .serif {
+  font-family: 'Merriweather', serif; }
 
-.light{
-	font-weight: 300;
-}
+p, a, .sans {
+  font-family: "Roboto"; }
 
-.thin{
-	font-weight: 100;
-}
-
-h1, h2, h3, h4, h5, .serif{
-	font-family: 'Merriweather', serif;
-}
-
-p, a, .sans{
-	font-family: 'Roboto'
-}
-
-*{
-	font-family: 'Roboto'
-}
-
+* {
+  font-family: "Roboto"; }
 
 /* ==========================================================================
 	Navigation
    ========================================================================== */
-#nav{
-	width: 100%;
-	background-color: rgb(42, 42, 42);
-	background-color: rgba(42, 42, 42, 0.8);
-	color: #fff;
-	z-index: 100;
-	position: fixed;
-	display: none;
-}
+#nav {
+  width: 100%;
+  height: 100%;
+  background-color: #2a2a2a;
+  background-color: rgba(42, 42, 42, 0.8);
+  color: #fff;
+  z-index: 100;
+  position: fixed;
+  display: none; }
+  #nav a {
+    color: #fff; }
+  #nav #nav-container {
+    padding-top: 20px;
+    overflow-y: scroll; }
+  #nav .nav-pills li a:hover {
+    background-color: transparent;
+    color: #eee;
+    text-decoration: underline; }
+  #nav #nav-close {
+    margin-top: 20px; }
+  #nav #nav-tagline {
+    margin-top: 10px; }
+    @media only screen and (max-width: 778px) {
+      #nav #nav-tagline {
+        font-size: 20px; } }
+  #nav #nav-links,
+  #nav #nav-social {
+    margin-top: 30px; }
+  #nav #nav-links li a {
+    font-size: 20px; }
+    @media only screen and (max-width: 778px) {
+      #nav #nav-links li a {
+        font-size: 16px; } }
+  #nav #nav-social {
+    width: 24%; }
+    @media only screen and (max-width: 778px) {
+      #nav #nav-social {
+        width: 68%; } }
 
-#nav a{
-	color: #fff;
-}
+#main-container {
+  width: 100%;
+  height: 1000px;
+  z-index: 10;
+  margin-top: 0;
+  margin-left: 0;
+  position: relative;
+  background-position: center center;
+  background-size: cover; }
 
-#nav-container{
-	padding-top: 20px;
-	overflow-y: scroll;
-}
+#menu {
+  width: 100%;
+  position: fixed;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in; }
+  #menu #nav-toggle {
+    vertical-align: middle;
+    margin-top: 20px;
+    cursor: pointer; }
 
-#nav .nav-pills li a:hover{
-	background-color: transparent;
-	color: #eee;
-	text-decoration: underline;
-}
+#menu.white {
+  background-color: #fff; }
+  #menu.white a, #menu.white i {
+    color: #000; }
 
-#nav-close{
-	margin-top: 20px;
-}
+#menu.transparent {
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.1); }
+  #menu.transparent a, #menu.transparent i {
+    color: #fff; }
 
-#nav-tagline{
-	margin-top: 10px;
-}
-
-#nav-links,
-#nav-social{
-	margin-top: 30px;
-}
-
-#nav-links li a{
-	font-size: 20px;
-}
-
-#main-container{
-	width: 100%;
-	height: 1000px;
-	z-index: 10;
-	margin-top: 0;
-	margin-left: 0;
-	position: relative;
-	background-position: center center;
-	background-size: cover;
-}
-
-#nav-social{
-	width: 24%;
-}
-
-#nav-toggle{
-	vertical-align: middle;
-	margin-top: 20px;
-	color: #000;
-	cursor: pointer;
-}
-
-#menu{
-	width: 100%;
-	position: fixed;
-	background-color: #fff;
-}
-
-#menu a{
-	color: #000;
-}
-
-
-
-
-/* ============================Media Queries============================ */
-
-@media only screen and (max-width: 778px){
-
-	#nav-social{
-		width: 68%;
-	}
-
-	#nav-tagline{
-		font-size: 20px;
-	}
-
-	#nav-links li a{
-		font-size: 16px;
-	}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=main.css.map */
