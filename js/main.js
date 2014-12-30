@@ -80,7 +80,14 @@ function verticalCenter(elem, adjust){
 }
 
 function positionCTA(pTop){
-	$('#scroll-down').css("padding-top", pTop*.9 + "px" );
+	var windowWidth = $(window).width();
+
+	if(windowWidth > 768){
+		$('#scroll-down').css("padding-top", pTop*.9 + "px" );
+	}else{
+		$('#scroll-down').css("padding-top", pTop*.7 + "px" );
+	}
+	
 }
 
 function alignPhotoPortoflolio(){
