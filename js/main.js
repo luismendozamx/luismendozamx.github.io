@@ -2,6 +2,7 @@ $(document).ready( function() {
 
 	var callMakeFullScreen = makeFullScreen( $('#hero') );
 	verticalCenter( $('#tag-line') , 0, callMakeFullScreen);
+	positionCTA();
 
 	$( "#nav-toggle" ).click(function() {
 		fitNavigation();
@@ -22,8 +23,10 @@ $(document).ready( function() {
 
 	//Typed.js
 	$(".typed").typed({
-		strings: ["First sentence.", "Second sentence."],
-		typeSpeed: 0
+		strings: ["write code.", "take photos.", "shoot films.", "build cool things."],
+		typeSpeed: 0,
+		startDelay: 100,
+		backDelay: 1000
 	});
 
 });
@@ -66,7 +69,13 @@ function makeFullScreen(elem, pTop){
 
 function verticalCenter(elem, adjust){
 	containerHieght = elem.parent().height();
-	elem.css("padding-top", ((containerHieght - elem.height())/2) * .9+ "px");
+	pTop = ((containerHieght - elem.height())/2) * .9;
+	positionCTA(pTop);
+	elem.css("padding-top", pTop + "px");
+}
+
+function positionCTA(pTop){
+	$('#scroll-down').css("padding-top", pTop*.9 + "px" );
 }
 
 $(window).scroll(function() {
@@ -77,6 +86,12 @@ $(window).scroll(function() {
     } else {
         $("#menu").addClass("transparent");
         $("#menu").removeClass("white");
+    }
+
+    if($("#menu").offset().top > pTop * 1.2){
+		$(".overlay").css("background-color", "rgba(42, 42, 42, 0.8)");
+    }else{
+    	$(".overlay").css("background-color", "rgba(42, 42, 42, 0.25)");
     }
 
 });
