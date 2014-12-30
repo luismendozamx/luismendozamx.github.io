@@ -66,8 +66,10 @@ p, a, .sans {
     background-color: transparent;
     color: #eee;
     text-decoration: underline; }
-  #nav #nav-close {
+  #nav #nav-close.transparent {
     margin-top: 20px; }
+  #nav #nav-close.white {
+    margin-top: 10px; }
   #nav #nav-tagline {
     margin-top: 10px; }
     @media only screen and (max-width: 778px) {
@@ -102,7 +104,7 @@ p, a, .sans {
   z-index: 100;
   margin-top: 0;
   margin-left: 0;
-  height: 2000px;
+  height: 3000px;
   position: relative;
   background-position: center center;
   background-size: cover; }
@@ -120,31 +122,51 @@ p, a, .sans {
     #main-container #menu h3 {
       margin: 0;
       vertical-align: middle; }
-    #main-container #menu .container {
-      padding-top: 20px;
-      padding-bottom: 20px; }
   #main-container #menu.white {
-    background-color: #fff; }
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1); }
     #main-container #menu.white a, #main-container #menu.white i {
       color: #000; }
+    #main-container #menu.white .container {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in; }
   #main-container #menu.transparent {
     background-color: transparent; }
     #main-container #menu.transparent a, #main-container #menu.transparent i {
       color: #fff;
       text-shadow: 1px 1px 3px #000; }
+    #main-container #menu.transparent .container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in; }
   #main-container #hero {
     background-position: center center;
     background-size: cover;
     text-align: center; }
+    #main-container #hero .blur {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(42, 42, 42, 0.9);
+      z-index: 150; }
     #main-container #hero .overlay {
-      background-color: rgba(42, 42, 42, 0.25);
+      background-color: rgba(1, 1, 1, 0.25);
       width: 100%;
       height: 100%;
       position: relative;
       z-index: 100;
-      -webkit-transition: all 0.7s ease-in;
-      -moz-transition: all 0.7s ease-in;
-      transition: all 0.7s ease-in; }
+      -webkit-transition: all 0.7s ease-in-out;
+      -moz-transition: all 0.7s ease-in-out;
+      transition: all 0.7s ease-in-out; }
+    #main-container #hero .container {
+      position: relative;
+      z-index: 200; }
     #main-container #hero #tag-line {
       padding-top: 20%;
       color: #fff;
@@ -155,6 +177,43 @@ p, a, .sans {
       padding-top: 100px;
       color: #fff;
       text-shadow: 1px 1px 3px #000; }
+  #main-container #photography {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background-color: #fbfbfb; }
+    #main-container #photography .row:first-child {
+      padding-bottom: 30px; }
+      #main-container #photography .row:first-child p {
+        font-size: 16px;
+        font-weight: 300;
+        color: #6e6e6e; }
+    #main-container #photography .row:last-child {
+      padding-left: 15px;
+      padding-right: 15px; }
+      #main-container #photography .row:last-child a {
+        color: #000; }
+    #main-container #photography .portfolio-photo {
+      padding: 0px;
+      background-size: cover;
+      background-position: center center; }
+      #main-container #photography .portfolio-photo .overlay {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(50, 50, 50, 0.2); }
+        #main-container #photography .portfolio-photo .overlay:hover {
+          background-color: rgba(200, 200, 200, 0.5);
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out; }
+        #main-container #photography .portfolio-photo .overlay .portfolio-desc {
+          width: 100%;
+          text-align: center; }
+          #main-container #photography .portfolio-photo .overlay .portfolio-desc p {
+            margin: 0;
+            color: #fff;
+            font-size: 30px;
+            font-weight: 300;
+            text-shadow: 1px 1px 3px #000; }
 
 /* ==========================================================================
 	Plugins

@@ -41,8 +41,12 @@
 		text-decoration: underline;
 	}
 
-	#nav-close{
+	#nav-close.transparent{
 		margin-top: 20px;
+	}
+
+	#nav-close.white{
+		margin-top: 10px;
 	}
 
 	#nav-tagline{
@@ -95,7 +99,7 @@
 	z-index: 100;
 	margin-top: 0;
 	margin-left: 0;
-	height: 2000px;
+	height: 3000px;
 	position: relative;
 	background-position: center center;
 	background-size: cover;
@@ -114,12 +118,7 @@
 		h3{
 			margin: 0;
 			vertical-align: middle;
-		}
-
-		.container{
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}
+		}		
 
 		@include transition(all 0.5s ease-in);
 	}
@@ -127,8 +126,18 @@
 	#menu.white{
 		background-color: #fff;
 
+		-webkit-box-shadow: 0 2px 2px 2px rgba(0,0,0,0.10);
+		  -moz-box-shadow: 0 2px 2px 2px rgba(0,0,0,0.10);
+		       box-shadow: 0 2px 2px 2px rgba(0,0,0,0.10);
 		a, i{
 			color: #000;
+		}
+
+		.container{
+			padding-top: 10px;
+			padding-bottom: 10px;
+
+			@include transition(all 0.3s ease-in);
 		}
 	}
 
@@ -139,21 +148,40 @@
 			color: #fff;
 			text-shadow: 1px 1px 3px #000;
 		}
+
+		.container{
+			padding-top: 20px;
+			padding-bottom: 20px;
+
+			@include transition(all 0.3s ease-in);
+		}
 	}
 
 	#hero{
 		background-position: center center;
 		background-size: cover;
 		text-align: center;
+
+		.blur{
+			width: 100%;
+			height: 100%;
+			background-color: rgba(42, 42, 42, 0.9);
+			z-index: 150;
+		}
 			
 		.overlay{
-			background-color: rgba(42, 42, 42, 0.25);
+			background-color: rgba(1, 1, 1, 0.25);
 			width: 100%;
 			height: 100%;
 			position: relative;
 			z-index: 100;
 
-			@include transition(all 0.7s ease-in);
+			@include transition(all 0.7s ease-in-out);
+		}
+
+		.container{
+			position: relative;
+			z-index: 200;
 		}
 
 		#tag-line{
@@ -171,6 +199,72 @@
 			color: #fff;
 			text-shadow: 1px 1px 3px #000;
 		}
+
+	}
+
+	#photography{
+		padding-top: 60px;
+		padding-bottom: 70px;
+		background-color: lighten(#eee, 5%);
+
+		.row:first-child{
+			padding-bottom: 30px;
+
+			p{
+				font-size: 16px;
+				font-weight: 300;
+				color: darken(#eee, 50%);
+			}
+
+		}
+
+		.row:last-child{
+			padding-left: 15px;
+			padding-right: 15px;
+
+			a{
+				color: #000;
+			}
+		}
+
+		.portfolio-photo{
+			padding: 0px;
+			background-size: cover;
+			background-position: center center; 
+
+			.overlay{
+				height: 100%;
+				width: 100%;
+				background-color: rgba(50, 50, 50, 0.2);
+
+				&:hover{
+					background-color: rgba(200, 200, 200, 0.5);
+
+					@include transition(all 0.3s ease-in-out);
+				}
+
+				.portfolio-desc{
+					width: 100%;
+					text-align: center;
+
+					p{
+						margin: 0;
+						color: #fff;
+						font-size: 30px;
+						font-weight: 300;
+						text-shadow: 1px 1px 3px #000;
+					}
+				}
+
+				&:hover{
+					p{
+						
+					}
+				}
+			}
+		}
+
+		
 
 	}
 
