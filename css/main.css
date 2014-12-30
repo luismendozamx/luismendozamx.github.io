@@ -224,13 +224,31 @@ p, a, .sans {
         font-size: 16px;
         font-weight: 300;
         color: #6e6e6e; }
+    @media only screen and (max-width: 778px) {
+      #main-container #video #video-selector-container {
+        width: 100%;
+        overflow-x: scroll; } }
     #main-container #video #video-selector {
       list-style-type: none;
       padding-left: 0;
-      overflow-y: hidden;
+      overflow-x: hidden;
       overflow-y: scroll; }
+      @media only screen and (max-width: 778px) {
+        #main-container #video #video-selector {
+          display: inline-block;
+          height: 100px;
+          width: 1100px;
+          overflow-y: hidden;
+          overflow-x: scroll; } }
       #main-container #video #video-selector li {
         padding: 5px 0 5px 0; }
+        @media only screen and (max-width: 778px) {
+          #main-container #video #video-selector li {
+            height: 100px;
+            width: 177px;
+            display: inline-block;
+            float: left;
+            padding: 0px 5px; } }
       #main-container #video #video-selector li:first-child {
         padding-top: 0px; }
     #main-container #video #video-well p {

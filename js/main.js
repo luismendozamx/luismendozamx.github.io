@@ -38,6 +38,7 @@ $(window).resize( function(){
 	verticalCenter( $('#tag-line') );
 	makeFullScreen( $('#hero') );
 	alignPhotoPortoflolio();
+	videoAlign();
 });
 
 function fitNavigation(){
@@ -95,7 +96,14 @@ function alignPhotoPortoflolio(){
 }
 
 function videoAlign(){
-	$('#video-selector').height( $('#video-well').height() );
+	var windowWidth = $(window).width();
+
+	if( windowWidth > 768){
+		$('#video-selector').height( $('#video-well').height() );
+	}else{
+		$('#video-selector').height("100px");
+	}
+	
 }
 
 $(window).scroll(function() {
