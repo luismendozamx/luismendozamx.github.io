@@ -54,9 +54,9 @@ p, a, .sans {
   position: fixed;
   top: 0;
   display: none; }
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 768px) {
     #nav {
-      background-color: rgba(42, 42, 42, 0.9); } }
+      background-color: rgba(42, 42, 42, 0.8); } }
   #nav a {
     color: #fff; }
   #nav #nav-container {
@@ -78,11 +78,17 @@ p, a, .sans {
   #nav #nav-links,
   #nav #nav-social {
     margin-top: 30px; }
+    @media only screen and (max-width: 778px) {
+      #nav #nav-links,
+      #nav #nav-social {
+        margin-top: 15px; } }
   #nav #nav-links li a {
     font-size: 20px; }
     @media only screen and (max-width: 778px) {
       #nav #nav-links li a {
-        font-size: 16px; } }
+        font-size: 16px;
+        padding-top: 5px;
+        padding-bottom: 5px; } }
   #nav #nav-social {
     width: 24%; }
     #nav #nav-social li {
@@ -97,7 +103,8 @@ p, a, .sans {
             padding: 8px; } }
     @media only screen and (max-width: 778px) {
       #nav #nav-social {
-        width: 68%; } }
+        width: 90%;
+        padding-bottom: 20px; } }
 
 #main-container {
   width: 100%;

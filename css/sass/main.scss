@@ -22,8 +22,8 @@
 	top: 0;
 	display: none;
 
-	@media only screen and (max-width: 992px){
-		background-color: rgba(42, 42, 42, 0.9);
+	@media only screen and (max-width: 768px){
+		background-color: rgba(42, 42, 42, 0.8);
 	}
 
 	a{
@@ -59,12 +59,17 @@
 	#nav-links,
 	#nav-social{
 		margin-top: 30px;
+		@media only screen and (max-width: 778px){
+			margin-top: 15px;
+		}
 	}
 
 	#nav-links li a{
 		font-size: 20px;
 		@media only screen and (max-width: 778px){
 			font-size: 16px;
+			padding-top: 5px;
+			padding-bottom: 5px;
 		}
 	}
 
@@ -88,7 +93,8 @@
 			}
 		}
 		@media only screen and (max-width: 778px){
-			width: 68%;
+			width: 90%;
+			padding-bottom:20px;
 		}
 	}
 	
