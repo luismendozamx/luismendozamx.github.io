@@ -263,11 +263,48 @@
 				}
 			}
 		}
-
-		
-
 	}
 
+	#video{
+		padding-top: 60px;
+		padding-bottom: 70px;
+		background-color: #fff;
+
+		.row:first-child{
+			padding-bottom: 30px;
+
+			p{
+				font-size: 16px;
+				font-weight: 300;
+				color: darken(#eee, 50%);
+			}
+
+		}
+
+		#video-selector{
+			list-style-type: none;
+			padding-left: 0;
+			overflow-y: hidden;
+			overflow-y: scroll;
+			
+			li{
+				padding: 5px 0 5px 0;
+			}
+
+			li:first-child{
+				padding-top: 0px;
+			}
+			
+		}
+
+		#video-well{
+
+			p{
+				padding-top: 20px;
+				color: darken(#eee, 70%);
+			}
+		}
+	}
 	
 
 }

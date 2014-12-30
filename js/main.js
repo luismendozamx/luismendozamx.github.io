@@ -4,6 +4,7 @@ $(document).ready( function() {
 	verticalCenter( $('#tag-line') , 0, callMakeFullScreen);
 	positionCTA();
 	alignPhotoPortoflolio();
+	videoAlign();
 
 	$( "#nav-toggle" ).click(function() {
 		fitNavigation();
@@ -93,10 +94,14 @@ function alignPhotoPortoflolio(){
 	};
 }
 
+function videoAlign(){
+	$('#video-selector').height( $('#video-well').height() );
+}
+
 $(window).scroll(function() {
 	var trigger = $('#photography').offset().top - 50;
 
-    if ($("#menu").offset().top >  trigger) {
+    if ($("#menu").offset().top >  50) {
         $("#menu").addClass("white");
         $("#nav-close").addClass("white");
         $("#menu").removeClass("transparent");

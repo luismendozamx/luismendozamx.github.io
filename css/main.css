@@ -214,6 +214,28 @@ p, a, .sans {
             font-size: 30px;
             font-weight: 300;
             text-shadow: 1px 1px 3px #000; }
+  #main-container #video {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background-color: #fff; }
+    #main-container #video .row:first-child {
+      padding-bottom: 30px; }
+      #main-container #video .row:first-child p {
+        font-size: 16px;
+        font-weight: 300;
+        color: #6e6e6e; }
+    #main-container #video #video-selector {
+      list-style-type: none;
+      padding-left: 0;
+      overflow-y: hidden;
+      overflow-y: scroll; }
+      #main-container #video #video-selector li {
+        padding: 5px 0 5px 0; }
+      #main-container #video #video-selector li:first-child {
+        padding-top: 0px; }
+    #main-container #video #video-well p {
+      padding-top: 20px;
+      color: #3b3b3b; }
 
 /* ==========================================================================
 	Plugins
