@@ -41,6 +41,9 @@ p, a, .sans {
 * {
   font-family: "Roboto"; }
 
+a:hover {
+  text-decoration: none; }
+
 /* ==========================================================================
 	Navigation
    ========================================================================== */
@@ -114,7 +117,6 @@ p, a, .sans {
   z-index: 100;
   margin-top: 0;
   margin-left: 0;
-  height: 3000px;
   position: relative;
   background-position: center center;
   background-size: cover; }
@@ -182,21 +184,34 @@ p, a, .sans {
       color: #fff;
       text-shadow: 1px 1px 3px #000; }
       #main-container #hero #tag-line span {
-        font-size: 30px; }
+        font-size: 30px;
+        font-weight: 300; }
     #main-container #hero #scroll-down {
       padding-top: 100px;
       color: #fff;
       text-shadow: 1px 1px 3px #000; }
   #main-container #photography {
     padding-top: 60px;
-    padding-bottom: 70px;
-    background-color: #fbfbfb; }
-    #main-container #photography .row:first-child {
-      padding-bottom: 30px; }
-      #main-container #photography .row:first-child p {
+    padding-bottom: 60px;
+    background-color: #ebebeb; }
+    #main-container #photography h3 {
+      color: #000;
+      margin-top: 0px; }
+    @media only screen and (max-width: 778px) {
+      #main-container #photography {
+        padding-top: 30px;
+        padding-bottom: 30px; } }
+    #main-container #photography .row {
+      padding-bottom: 0px; }
+      #main-container #photography .row p {
         font-size: 16px;
         font-weight: 300;
-        color: #6e6e6e; }
+        color: #555555; }
+    #main-container #photography .row:first-child {
+      padding-bottom: 20px; }
+      @media only screen and (max-width: 778px) {
+        #main-container #photography .row:first-child {
+          padding-bottom: 10px; } }
     #main-container #photography .row:last-child {
       padding-left: 15px;
       padding-right: 15px; }
@@ -226,14 +241,26 @@ p, a, .sans {
             text-shadow: 1px 1px 3px #000; }
   #main-container #video {
     padding-top: 60px;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
     background-color: #fff; }
-    #main-container #video .row:first-child {
-      padding-bottom: 30px; }
-      #main-container #video .row:first-child p {
+    #main-container #video h3 {
+      color: #000;
+      margin-top: 0px; }
+    @media only screen and (max-width: 778px) {
+      #main-container #video {
+        padding-top: 30px;
+        padding-bottom: 30px; } }
+    #main-container #video .row {
+      padding-bottom: 0px; }
+      #main-container #video .row p {
         font-size: 16px;
         font-weight: 300;
         color: #6e6e6e; }
+    #main-container #video .row:first-child {
+      padding-bottom: 20px; }
+      @media only screen and (max-width: 778px) {
+        #main-container #video .row:first-child {
+          padding-bottom: 10px; } }
     @media only screen and (max-width: 778px) {
       #main-container #video #video-selector-container {
         width: 100%;
@@ -247,7 +274,7 @@ p, a, .sans {
         #main-container #video #video-selector {
           display: inline-block;
           height: 100px;
-          width: 1100px;
+          width: 910px;
           overflow-y: hidden;
           overflow-x: scroll; } }
       #main-container #video #video-selector li {
@@ -266,6 +293,92 @@ p, a, .sans {
       color: #3b3b3b; }
     #main-container #video #video-well h4 {
       margin-top: 0px; }
+  #main-container #development {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff; }
+    #main-container #development h3 {
+      color: #000;
+      margin-top: 0px; }
+    @media only screen and (max-width: 778px) {
+      #main-container #development {
+        padding-top: 30px;
+        padding-bottom: 30px; } }
+    #main-container #development .row {
+      padding-bottom: 0px; }
+      #main-container #development .row p {
+        font-size: 16px;
+        font-weight: 300;
+        color: #6e6e6e; }
+    #main-container #development .row:first-child {
+      padding-bottom: 0px; }
+      @media only screen and (max-width: 778px) {
+        #main-container #development .row:first-child {
+          padding-bottom: 0px; } }
+  #main-container #about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #ebebeb; }
+    #main-container #about h3 {
+      color: #000;
+      margin-top: 0px; }
+    @media only screen and (max-width: 778px) {
+      #main-container #about {
+        padding-top: 30px;
+        padding-bottom: 30px; } }
+    #main-container #about .row {
+      padding-bottom: 0px; }
+      #main-container #about .row p {
+        font-size: 16px;
+        font-weight: 300;
+        color: #555555; }
+    #main-container #about .row:first-child {
+      padding-bottom: 0px; }
+      @media only screen and (max-width: 778px) {
+        #main-container #about .row:first-child {
+          padding-bottom: 0px; } }
+  #main-container #contact {
+    padding-top: 60px;
+    padding-bottom: 5px;
+    background-color: #434d55; }
+    #main-container #contact h3 {
+      color: #fff;
+      margin-top: 0px; }
+    @media only screen and (max-width: 778px) {
+      #main-container #contact {
+        padding-top: 30px;
+        padding-bottom: 2.5px; } }
+    #main-container #contact .row {
+      padding-bottom: 0px; }
+      #main-container #contact .row p {
+        font-size: 20px;
+        font-weight: 300;
+        color: #e1e1e1; }
+    #main-container #contact .row:first-child {
+      padding-bottom: 0px; }
+      @media only screen and (max-width: 778px) {
+        #main-container #contact .row:first-child {
+          padding-bottom: 0px; } }
+    #main-container #contact a {
+      color: #e1e1e1; }
+      #main-container #contact a:hover {
+        color: #fff; }
+    #main-container #contact #social-footer {
+      list-style-type: none;
+      width: 100%;
+      padding: 10px 0px 0px 0px; }
+      #main-container #contact #social-footer li {
+        display: inline-block; }
+        #main-container #contact #social-footer li a {
+          padding-left: 15px;
+          padding-right: 15px; }
+    #main-container #contact .credits {
+      text-align: center;
+      padding-top: 35px; }
+      #main-container #contact .credits p {
+        font-size: 12px;
+        font-weight: 400;
+        color: #aeaeae; }
 
 /* ==========================================================================
 	Plugins

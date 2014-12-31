@@ -1,0 +1,45 @@
+
+//Mixin for general section styling
+@mixin section($top, 
+               $bottom, 
+               $first-row, 
+               $row,
+               $size,
+               $background-color, 
+               $font-color, 
+               $title-color)
+{
+
+  padding-top: $top;
+  padding-bottom: $bottom;
+  background-color: $background-color;
+
+  h3{
+    color: $title-color;
+    margin-top: 0px;
+  }
+
+  @media only screen and (max-width: 778px){
+    padding-top: $top/2;
+    padding-bottom: $bottom/2;
+  }
+
+  .row{
+    padding-bottom: $row;
+
+    p{
+      font-size: $size;
+      font-weight: 300;
+      color: $font-color;
+    }
+  }
+
+  .row:first-child{
+    padding-bottom: $first-row;
+
+    @media only screen and (max-width: 778px){
+      padding-bottom: $first-row/2;
+    }
+  }
+
+}

@@ -50,6 +50,8 @@
 	}
 
 	#nav-title{
+
+
 		@media only screen and (max-width: 778px){
 			font-size: 25px;
 		}
@@ -111,7 +113,6 @@
 	z-index: 100;
 	margin-top: 0;
 	margin-left: 0;
-	height: 3000px;
 	position: relative;
 	background-position: center center;
 	background-size: cover;
@@ -203,6 +204,7 @@
 
 			span{
 				font-size: 30px;
+				font-weight: 300;
 			}
 		}
 
@@ -215,20 +217,8 @@
 	}
 
 	#photography{
-		padding-top: 60px;
-		padding-bottom: 70px;
-		background-color: lighten(#eee, 5%);
 
-		.row:first-child{
-			padding-bottom: 30px;
-
-			p{
-				font-size: 16px;
-				font-weight: 300;
-				color: darken(#eee, 50%);
-			}
-
-		}
+		@include section(60px, 60px, 20px, 0px, 16px, darken(#eee, 1%), darken(#eee, 60%), #000);
 
 		.row:last-child{
 			padding-left: 15px;
@@ -278,20 +268,8 @@
 	}
 
 	#video{
-		padding-top: 60px;
-		padding-bottom: 70px;
-		background-color: #fff;
 
-		.row:first-child{
-			padding-bottom: 30px;
-
-			p{
-				font-size: 16px;
-				font-weight: 300;
-				color: darken(#eee, 50%);
-			}
-
-		}
+		@include section(60px, 60px, 20px, 0px, 16px, #fff, darken(#eee, 50%), #000);
 
 		#video-selector-container{
 			@media only screen and (max-width: 778px){
@@ -309,7 +287,7 @@
 			@media only screen and (max-width: 778px){
 				display: inline-block;
 				height: 100px;
-				width: 1100px;;
+				width: 910px;;
 				overflow-y: hidden;
 				overflow-x: scroll;
 			}
@@ -347,7 +325,54 @@
 			}
 		}
 	}
-	
+
+	#development{
+		@include section(60px, 60px, 0px, 0px, 16px, #fff, darken(#eee, 50%), #000);
+	}
+
+	#about{
+		@include section(60px, 60px, 0px, 0px, 16px, darken(#eee, 1%), darken(#eee, 60%), #000);	
+	}
+
+	#contact{
+		@include section(60px, 5px, 0px, 0px, 20px, lighten(#384047, 5%), darken(#eee, 5%), #fff);
+
+		a{
+			color: darken(#eee, 5%);
+
+			&:hover{
+				color: #fff;
+			}
+		}
+
+		#social-footer{
+			list-style-type: none;
+			width: 100%;
+			padding: 10px 0px 0px 0px;
+
+			li{
+				display: inline-block;
+
+				a{
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+			}
+		}
+
+		.credits{
+			text-align: center;
+			padding-top: 35px;
+
+			p{
+				font-size: 12px;
+				font-weight: 400;
+				color: darken(#eee, 25%);
+			}
+			
+		}
+
+	}
 
 }
 
