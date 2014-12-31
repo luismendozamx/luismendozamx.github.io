@@ -261,6 +261,8 @@ p, a, .sans {
     #main-container #video #video-well p {
       padding-top: 20px;
       color: #3b3b3b; }
+    #main-container #video #video-well h4 {
+      margin-top: 0px; }
 
 /* ==========================================================================
 	Plugins
