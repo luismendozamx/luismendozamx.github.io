@@ -98,7 +98,7 @@ function positionCTA(pTop){
 function alignPhotoPortoflolio(){
 	var arr = $('.portfolio-desc');
 
-	for (var i = 0; i <= arr.length-1; i++) {
+	for (var i = 0; i <= arr.length-2; i++) {
 		var width = $(arr[i]).width();
 		var content = $(arr[i]).height();
 
@@ -112,6 +112,7 @@ function alignPhotoPortoflolio(){
 	var content = $(arr[i]).height();
 	$(arr[i]).css("padding-top", ((width-content)/2)-1 + "px" );
 	$(arr[i]).css("padding-bottom", ((width-content)/2)-1 + "px" );
+	$(arr[i]).css("width", width-1 + "px" );
 }
 
 function videoAlign(){
