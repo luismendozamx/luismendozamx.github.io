@@ -45,6 +45,11 @@ function fitNavigation(){
 	var windowWidth = $(window).width();
 	var windowHeight = $(window).height();
 
+	if( windowHeight < 450 ){
+		$('#nav-title').addClass('hidden-xs hidden-sm');
+		$('#nav-tagline').addClass('hidden-xs hidden-sm');
+	}
+
 	if( $('#nav').css("display") == "none"){
 		navHeight = 500;
 	}else{
@@ -93,13 +98,20 @@ function positionCTA(pTop){
 function alignPhotoPortoflolio(){
 	var arr = $('.portfolio-desc');
 
-	for (var i = 0; i <= arr.length; i++) {
+	for (var i = 0; i <= arr.length-1; i++) {
 		var width = $(arr[i]).width();
 		var content = $(arr[i]).height();
 
 		$(arr[i]).css("padding-top", (width-content)/2 + "px" );
 		$(arr[i]).css("padding-bottom", (width-content)/2 + "px" );
 	};
+
+	//Reduce 1 px to last element to avoid misalignment on odd number width.
+	//Too lazy to think about %2 at 1 a.m.
+	var width = $(arr[i]).width();
+	var content = $(arr[i]).height();
+	$(arr[i]).css("padding-top", ((width-content)/2)-1 + "px" );
+	$(arr[i]).css("padding-bottom", ((width-content)/2)-1 + "px" );
 }
 
 function videoAlign(){

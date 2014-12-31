@@ -356,6 +356,11 @@
 				a{
 					padding-left: 15px;
 					padding-right: 15px;
+
+					@media only screen and (max-width: 778px){
+						padding-left: 10px;
+						padding-right: 10px;
+					}
 				}
 			}
 		}

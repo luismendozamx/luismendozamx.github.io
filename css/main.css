@@ -372,6 +372,10 @@ a:hover {
         #main-container #contact #social-footer li a {
           padding-left: 15px;
           padding-right: 15px; }
+          @media only screen and (max-width: 778px) {
+            #main-container #contact #social-footer li a {
+              padding-left: 10px;
+              padding-right: 10px; } }
     #main-container #contact .credits {
       text-align: center;
       padding-top: 35px; }
