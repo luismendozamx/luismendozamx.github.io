@@ -327,15 +327,24 @@ a:hover {
       #main-container #development #development-portfolio .cta {
         margin-top: 30px;
         text-align: center; }
+        #main-container #development #development-portfolio .cta .btn {
+          color: #888888; }
       #main-container #development #development-portfolio #farmup {
-        background-color: #428bca; }
+        background-color: #428bca;
+        background-color: #5cb85c; }
         #main-container #development #development-portfolio #farmup h3, #main-container #development #development-portfolio #farmup p {
           color: #fff; }
       #main-container #development #development-portfolio #randevu {
-        background-color: #d4d4d4; }
+        background-color: #51A1D8; }
+        #main-container #development #development-portfolio #randevu h3, #main-container #development #development-portfolio #randevu p {
+          color: #fff; }
       #main-container #development #development-portfolio #monteblanco {
         background-color: #e6a623; }
         #main-container #development #development-portfolio #monteblanco h3, #main-container #development #development-portfolio #monteblanco p {
+          color: #fff; }
+      #main-container #development #development-portfolio #paradigmas {
+        background-color: #c82472; }
+        #main-container #development #development-portfolio #paradigmas h3, #main-container #development #development-portfolio #paradigmas p {
           color: #fff; }
       #main-container #development #development-portfolio .owl-controls {
         margin-top: -30px; }

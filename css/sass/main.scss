@@ -345,11 +345,16 @@
 
 			.cta{
 				margin-top: 30px;
-				text-align: center
+				text-align: center;
+
+				.btn{
+					color: darken(#eee, 40%);
+				}
 			}
 
 			#farmup{
 				background-color: #428bca;
+				background-color: #5cb85c;
 				
 				h3, p{
 					color: #fff;	
@@ -357,9 +362,10 @@
 			}
 
 			#randevu{
-				background-color: darken(#eee, 10%);
+				background-color: #51A1D8;
 				
-				h3, p{	
+				h3, p{
+					color: #fff;	
 				}
 			}
 
@@ -370,6 +376,14 @@
 					color: #fff;	
 				}
 			}
+
+			#paradigmas{
+				background-color: lighten(#c42370, 1%);
+
+				h3, p{
+					color: #fff;	
+				}
+			}			
 
 			.owl-controls{
 				margin-top: -30px;
