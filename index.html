@@ -12,6 +12,8 @@
 
         <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.css">
         <link rel="stylesheet" href="css/main.css">
 
         <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
@@ -38,11 +40,11 @@
 
                 <div class="row">
                     <div class="col-xs-12">
-                        <h1 id="nav-title" class="center">LUIS MENDOZA</h1>
+                        <h1 id="nav-title" class="center">Luis Mendoza</h1>
                         <h3 id="nav-tagline" class="center sans thin">Developer | Photographer | Entrepreneur | Geek</h3>
 
                         <ul id="nav-links" class="nav nav-pills nav-stacked center">
-                            <li><a href="#development">Development</a></li>
+                            <li><a href="#development">Web Development</a></li>
                             <li><a href="#photography">Photography</a></li>
                             <li><a href="#video">Video</a></li>
                             <li><a href="#about">About</a></li>
@@ -101,16 +103,55 @@
 
             <section id="development">
                 <div class="container">
+
                     <div class="row">
                         <div class="col-md-5 col-sm-12">
-                            <h3>Development</h3>
+                            <h3>Web Development</h3>
+
+                            <blockquote>
+                                <p>
+                                    <em><b>developer</b></em> - <em>noun</em></br> 
+                                    A person who develops stand-alone software (that is more than just a simple program) and gets involved with all phases of the development (design and code).
+                                </p>
+                            </blockquote>
+
                             <p>For the last year and a half I have been working as a web and mobile developer. I like to think of my self as a full-stack developer. I work at <a href="http://globalpark.mx" target="_blank">Global Park</a>, a small studio based in Mexico City.</p>
-                            <p>I like to build products form the ground up, starting with setting up the server, all the way to the little details of pushing pixels and dealing with animations.</p>
+
+                            <p>I like to build products form the ground up; starting with setting up the server, all the way to the little details of pushing pixels and dealing with animations.</p>
                         </div>
                         <div class="col-md-7 col-sm-12">
                             <img src="img/development/sublime.jpg" class="img-responsive" alt="">
                         </div>
                     </div>
+                </div>
+
+                <div class="container-fluid">
+
+                    <div id="development-portfolio" class="row owl-carousel">
+
+                        <div id="farmup" class="item">
+                            <div class="container">
+                                <div class="col-sm-6">
+                                    <img src="img/development/farmup.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="col-sm-6">
+                                    <h3>FarmUp</h3>
+                                    <p>An online marketplace for fresh fruits and vegetables in Mexico that directly connects farmers with buyers.</p>
+                                    <p>I was part of the founding team. We spent summer 2014 at MIT's Entrepreneurship Center Summer Accelerator program. During the three months we achieved great progress in validating the market and starting the company.</p>
+                                    <p>I was in charge of everything related with the platform. I designed and built a landing page as well as a fully functional web protoype.</p>
+
+                                    <div class="cta">
+                                        <a href="http://farmup.mx" target="_blank" class="btn btn-default">Visit the site</a>
+
+                                        <a href="http://prototipo.farmup.mx" target="_blank" class="btn btn-default">Check out the prototype</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
                 </div>
             </section>
 
@@ -325,14 +366,26 @@
             <section id="about">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-4 hidden-xs">
+                        <div class="col-sm-3 hidden-xs">
                             <img src="img/about/luis.jpg" alt="" class="img-responsive">
                         </div>
                         <div class="col-xs-6 col-xs-offset-3 visible-xs">
                             <img src="img/about/luis-square.jpg" alt="" class="img-responsive img-circle">
                         </div>
-                        <div class="col-sm-8 col-xs-12">
+                        <div class="col-sm-9 col-xs-12">
                             <h3>About me</h3>
+
+                            <div class="profile">
+                                <p><b>Name:</b> Luis Enrique Mendoza</p>
+                                <p><b>Age:</b> 23</p>
+                                <p><b>Location:</b> Mexico City</p>
+                                <p><b>Occupation:</b> Student | Developer | Photographer</p>
+                                <p><b>Major:</b> Computer Engineering and Industrial Engineering</p>
+                            </div>
+
+                            <p>Currently working at Global Park and studying at ITAM. I'm passionate about building awesome products through technology and collaboration. I'm very interested in open source and finding new ways to build businesses based on great teams of happy creative people.</p>
+
+                            <p>In my spare time I love to enjoy good movies and shoot old film cameras.</p>
                         </div>
                         
                     </div>
@@ -373,6 +426,7 @@
         <script src="js/vendor/jquery-1.11.1.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="plugins/typed/typed.js"></script>
+        <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
         <script src="js/main.js"></script>
 
     </body>

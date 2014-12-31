@@ -295,7 +295,7 @@ a:hover {
       margin-top: 0px; }
   #main-container #development {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
     background-color: #fff; }
     #main-container #development h3 {
       color: #000;
@@ -303,7 +303,7 @@ a:hover {
     @media only screen and (max-width: 778px) {
       #main-container #development {
         padding-top: 30px;
-        padding-bottom: 30px; } }
+        padding-bottom: 0px; } }
     #main-container #development .row {
       padding-bottom: 0px; }
       #main-container #development .row p {
@@ -311,10 +311,31 @@ a:hover {
         font-weight: 300;
         color: #6e6e6e; }
     #main-container #development .row:first-child {
-      padding-bottom: 0px; }
+      padding-bottom: 60px; }
       @media only screen and (max-width: 778px) {
         #main-container #development .row:first-child {
-          padding-bottom: 0px; } }
+          padding-bottom: 30px; } }
+    #main-container #development .container-fluid {
+      padding: 0; }
+    #main-container #development #development-portfolio {
+      margin: 0;
+      padding-bottom: 0px; }
+      #main-container #development #development-portfolio .item {
+        padding-top: 60px;
+        padding-bottom: 90px;
+        width: 100%; }
+      #main-container #development #development-portfolio .cta {
+        margin-top: 30px;
+        text-align: center; }
+      #main-container #development #development-portfolio #farmup {
+        background-color: #428bca; }
+        #main-container #development #development-portfolio #farmup h3, #main-container #development #development-portfolio #farmup p {
+          color: #fff; }
+      #main-container #development #development-portfolio .owl-controls {
+        margin-top: -30px; }
+        #main-container #development #development-portfolio .owl-controls .owl-page.active span {
+          background-color: #000;
+          opacity: 0.5; }
   #main-container #about {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -337,6 +358,10 @@ a:hover {
       @media only screen and (max-width: 778px) {
         #main-container #about .row:first-child {
           padding-bottom: 0px; } }
+    #main-container #about .profile {
+      margin-bottom: 15px; }
+      #main-container #about .profile p {
+        margin-bottom: 5px; }
   #main-container #contact {
     padding-top: 60px;
     padding-bottom: 5px;

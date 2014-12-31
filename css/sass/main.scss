@@ -327,11 +327,57 @@
 	}
 
 	#development{
-		@include section(60px, 60px, 0px, 0px, 16px, #fff, darken(#eee, 50%), #000);
+		@include section(60px, 0px, 60px, 0px, 16px, #fff, darken(#eee, 50%), #000);
+		
+		.container-fluid{
+			padding: 0;
+		}
+
+		#development-portfolio{
+			margin: 0;
+			padding-bottom: 0px;
+
+			.item{
+				padding-top: 60px;
+				padding-bottom: 90px;
+				width: 100%;
+			}
+
+			.cta{
+				margin-top: 30px;
+				text-align: center
+			}
+
+			#farmup{
+				background-color: #428bca;
+				
+				h3, p{
+					color: #fff;	
+				}
+			}
+
+			.owl-controls{
+				margin-top: -30px;
+
+				.owl-page.active{
+					span{
+						background-color: #000;
+  						opacity: 0.5;
+					}
+				}
+			}
+		}
 	}
 
 	#about{
-		@include section(60px, 60px, 0px, 0px, 16px, darken(#eee, 1%), darken(#eee, 60%), #000);	
+		@include section(60px, 60px, 0px, 0px, 16px, darken(#eee, 1%), darken(#eee, 60%), #000);
+
+		.profile{
+			margin-bottom: 15px;
+			p{
+				margin-bottom: 5px;
+			}
+		}	
 	}
 
 	#contact{

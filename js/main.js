@@ -32,6 +32,15 @@ $(document).ready( function() {
 		loopCount: 3
 	});
 
+	$('#development-portfolio').owlCarousel({
+        navigation : false, // Show next and prev buttons
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem: true,
+        autoPlay: false,
+        pagination: true
+    });
+
 });
 
 $(window).resize( function(){
