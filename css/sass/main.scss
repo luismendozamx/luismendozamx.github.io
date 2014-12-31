@@ -49,6 +49,12 @@
 		margin-top: 10px;
 	}
 
+	#nav-title{
+		@media only screen and (max-width: 778px){
+			font-size: 25px;
+		}
+	}
+
 	#nav-tagline{
 		margin-top: 10px;
 		@media only screen and (max-width: 778px){

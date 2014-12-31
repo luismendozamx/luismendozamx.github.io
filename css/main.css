@@ -70,6 +70,9 @@ p, a, .sans {
     margin-top: 20px; }
   #nav #nav-close.white {
     margin-top: 10px; }
+  @media only screen and (max-width: 778px) {
+    #nav #nav-title {
+      font-size: 25px; } }
   #nav #nav-tagline {
     margin-top: 10px; }
     @media only screen and (max-width: 778px) {
