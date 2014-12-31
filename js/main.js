@@ -38,6 +38,7 @@ $(document).ready( function() {
         paginationSpeed : 400,
         singleItem: true,
         autoPlay: false,
+        autoHeight: true,
         pagination: true
     });
 

@@ -331,6 +331,12 @@ a:hover {
         background-color: #428bca; }
         #main-container #development #development-portfolio #farmup h3, #main-container #development #development-portfolio #farmup p {
           color: #fff; }
+      #main-container #development #development-portfolio #randevu {
+        background-color: #d4d4d4; }
+      #main-container #development #development-portfolio #monteblanco {
+        background-color: #e6a623; }
+        #main-container #development #development-portfolio #monteblanco h3, #main-container #development #development-portfolio #monteblanco p {
+          color: #fff; }
       #main-container #development #development-portfolio .owl-controls {
         margin-top: -30px; }
         #main-container #development #development-portfolio .owl-controls .owl-page.active span {
