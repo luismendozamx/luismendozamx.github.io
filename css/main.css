@@ -334,10 +334,22 @@ a:hover {
         background-color: #5cb85c; }
         #main-container #development #development-portfolio #farmup h3, #main-container #development #development-portfolio #farmup p {
           color: #fff; }
+        #main-container #development #development-portfolio #farmup a {
+          color: #fff;
+          text-decoration: underline; }
+        #main-container #development #development-portfolio #farmup .btn {
+          color: #888888;
+          text-decoration: none; }
       #main-container #development #development-portfolio #randevu {
         background-color: #51A1D8; }
         #main-container #development #development-portfolio #randevu h3, #main-container #development #development-portfolio #randevu p {
           color: #fff; }
+        #main-container #development #development-portfolio #randevu a {
+          color: #fff;
+          text-decoration: underline; }
+        #main-container #development #development-portfolio #randevu .btn {
+          color: #888888;
+          text-decoration: none; }
       #main-container #development #development-portfolio #monteblanco {
         background-color: #e6a623; }
         #main-container #development #development-portfolio #monteblanco h3, #main-container #development #development-portfolio #monteblanco p {
@@ -346,6 +358,12 @@ a:hover {
         background-color: #c82472; }
         #main-container #development #development-portfolio #paradigmas h3, #main-container #development #development-portfolio #paradigmas p {
           color: #fff; }
+        #main-container #development #development-portfolio #paradigmas a {
+          color: #fff;
+          text-decoration: underline; }
+        #main-container #development #development-portfolio #paradigmas .btn {
+          color: #888888;
+          text-decoration: none; }
       #main-container #development #development-portfolio .owl-controls {
         margin-top: -30px; }
         #main-container #development #development-portfolio .owl-controls .owl-page.active span {
