@@ -2,7 +2,6 @@
 
 My Portfolio. View [here](http://mendoza.io)
 
----
 ##Credits
 
 - [Bootstrap](http://getbootstrap.com/)
