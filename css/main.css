@@ -369,6 +369,9 @@ a:hover {
         #main-container #development #development-portfolio .owl-controls .owl-page.active span {
           background-color: #000;
           opacity: 0.5; }
+        #main-container #development #development-portfolio .owl-controls .owl-page span {
+          background-color: #fff;
+          opacity: 0.5; }
   #main-container #about {
     padding-top: 60px;
     padding-bottom: 60px;
