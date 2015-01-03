@@ -22,14 +22,20 @@ $(document).ready( function() {
 		$( "#nav" ).fadeOut( "fast" );
 	});
 
+	var i = 0;
 	//Typed.js
 	$(".typed").typed({
 		strings: ["write code.", "take photos.", "shoot films.", "build cool things."],
-		typeSpeed: 0,
+		typeSpeed: 30,
 		startDelay: 100,
 		backDelay: 1000,
 		loop: true,
-		loopCount: 3
+		loopCount: 2,
+		callback: function(){
+			if(i == 1)
+				removeTagLine();
+			i++;
+		}
 	});
 
 	$('#development-portfolio').owlCarousel({
@@ -50,6 +56,13 @@ $(window).resize( function(){
 	alignPhotoPortoflolio();
 	videoAlign();
 });
+
+function removeTagLine(){
+	$('.typed').fadeOut(400);
+	$('.typed-cursor').fadeOut(390, function(){
+		$('.finish-typed').fadeIn();
+	});
+}
 
 function fitNavigation(){
 	var windowWidth = $(window).width();
