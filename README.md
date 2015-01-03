@@ -5,6 +5,7 @@ My Portfolio. View [here](http://mendoza.io).
 Want to run it locally? Try:
 
 ```
+npm install
 bower install
 ```
 
