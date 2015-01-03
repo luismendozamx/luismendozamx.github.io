@@ -194,7 +194,7 @@ module.exports = function (grunt) {
       app: {
         ignorePath: /^\/|\.\.\//,
         src: ['<%= config.app %>/index.html'],
-        exclude: ['bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js']
+        exclude: ['bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js', 'bower_components/fontawesome/*']
       },
       sass: {
         src: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
@@ -334,6 +334,24 @@ module.exports = function (grunt) {
           cwd: '.',
           src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
           dest: '<%= config.dist %>'
+        }, {
+          expand: true,
+          dot: true,
+          cwd: '.',
+          src: 'bower_components/fontawesome/fonts/*',
+          dest: '<%= config.dist %>'
+        }, {
+          expand: true,
+          dot: true,
+          cwd: '.',
+          src: 'bower_components/fontawesome/css/*',
+          dest: '<%= config.dist %>'
+        }, {
+          expand: true,
+          dot: true,
+          cwd: '.',
+          src: ['bower_components/OwlCarousel/owl-carousel/**'], 
+          dest: '<%= config.dist %>'
         }]
       },
       styles: {
@@ -374,7 +392,7 @@ module.exports = function (grunt) {
       dist: [
         'sass',
         'copy:styles',
-        'imagemin',
+        //'imagemin',
         'svgmin'
       ]
     }
@@ -431,8 +449,8 @@ module.exports = function (grunt) {
     'copy:dist',
     'modernizr',
     'rev',
-    'usemin',
-    'htmlmin'
+    'usemin'
+    //'htmlmin' No minifying html.
   ]);
 
   grunt.registerTask('default', [
