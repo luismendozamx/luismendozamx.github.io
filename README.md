@@ -1,6 +1,20 @@
 #mendoza.io
 
-My Portfolio. View [here](http://mendoza.io)
+My Portfolio. View [here](http://mendoza.io).
+
+Want to run it locally? Try:
+
+```
+bower install
+```
+
+and then
+
+```
+grunt serve
+```
+
+visit [localhost:9000](http://localhost:9000) in your browser.
 
 ##Credits
 
