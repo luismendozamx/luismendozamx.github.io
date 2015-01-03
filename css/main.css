@@ -1,0 +1,480 @@
+/* ==========================================================================
+	Author: Luis Mendoza
+   ========================================================================== */
+/* ================================================================ 
+  Global Styles
+   ================================================================ */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.left {
+  float: left !important; }
+
+.right {
+  float: right !important; }
+
+.fill {
+  width: 100%; }
+
+.light {
+  font-weight: 300; }
+
+.thin {
+  font-weight: 100; }
+
+body {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in; }
+
+/* ================================================================ 
+  Typography
+   ================================================================ */
+h1, h2, h3, h4, h5, .serif {
+  font-family: 'Merriweather', serif; }
+
+p, a, .sans {
+  font-family: "Roboto"; }
+
+* {
+  font-family: "Roboto"; }
+
+a:hover {
+  text-decoration: none; }
+
+/* ==========================================================================
+	Navigation
+   ========================================================================== */
+#nav {
+  width: 100%;
+  height: 100%;
+  background-color: #2a2a2a;
+  background-color: rgba(42, 42, 42, 0.8);
+  color: #fff;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  display: none; }
+  @media only screen and (max-width: 768px) {
+    #nav {
+      background-color: rgba(42, 42, 42, 0.8); } }
+  #nav a {
+    color: #fff; }
+  #nav #nav-container {
+    padding-top: 20px;
+    overflow-y: scroll; }
+  #nav .nav-pills li a:hover {
+    background-color: transparent;
+    color: #eee;
+    text-decoration: underline; }
+  #nav #nav-close.transparent {
+    margin-top: 20px; }
+  #nav #nav-close.white {
+    margin-top: 10px; }
+  @media only screen and (max-width: 778px) {
+    #nav #nav-title {
+      font-size: 25px; } }
+  #nav #nav-tagline {
+    margin-top: 10px; }
+    @media only screen and (max-width: 778px) {
+      #nav #nav-tagline {
+        font-size: 14px; } }
+  #nav #nav-links,
+  #nav #nav-social {
+    margin-top: 30px; }
+    @media only screen and (max-width: 778px) {
+      #nav #nav-links,
+      #nav #nav-social {
+        margin-top: 15px; } }
+  #nav #nav-links li a {
+    font-size: 20px; }
+    @media only screen and (max-width: 778px) {
+      #nav #nav-links li a {
+        font-size: 16px;
+        padding-top: 5px;
+        padding-bottom: 5px; } }
+  #nav #nav-social {
+    width: 24%; }
+    #nav #nav-social li {
+      display: inline-block; }
+      #nav #nav-social li a {
+        padding: 12px; }
+        #nav #nav-social li a:hover {
+          background-color: transparent;
+          color: #eaeaea; }
+        @media only screen and (max-width: 778px) {
+          #nav #nav-social li a {
+            padding: 8px; } }
+    @media only screen and (max-width: 778px) {
+      #nav #nav-social {
+        width: 90%;
+        padding-bottom: 20px; } }
+
+#main-container {
+  width: 100%;
+  z-index: 100;
+  margin-top: 0;
+  margin-left: 0;
+  position: relative;
+  background-position: center center;
+  background-size: cover; }
+  #main-container #menu {
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in; }
+    #main-container #menu #nav-toggle {
+      vertical-align: middle;
+      cursor: pointer; }
+    #main-container #menu h3 {
+      margin: 0;
+      vertical-align: middle; }
+  #main-container #menu.white {
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1); }
+    #main-container #menu.white a, #main-container #menu.white i {
+      color: #000; }
+    #main-container #menu.white .container {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in; }
+  #main-container #menu.transparent {
+    background-color: transparent; }
+    #main-container #menu.transparent a, #main-container #menu.transparent i {
+      color: #fff;
+      text-shadow: 1px 1px 3px #000; }
+    #main-container #menu.transparent .container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in; }
+  #main-container #hero {
+    background-position: center center;
+    background-size: cover;
+    text-align: center; }
+    #main-container #hero .blur {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(42, 42, 42, 0.9);
+      z-index: 150; }
+    #main-container #hero .overlay {
+      background-color: rgba(1, 1, 1, 0.25);
+      width: 100%;
+      height: 100%;
+      position: relative;
+      z-index: 100;
+      -webkit-transition: all 0.7s ease-in-out;
+      -moz-transition: all 0.7s ease-in-out;
+      transition: all 0.7s ease-in-out; }
+    #main-container #hero .container {
+      position: relative;
+      z-index: 200; }
+    #main-container #hero #tag-line {
+      padding-top: 20%;
+      color: #fff;
+      text-shadow: 1px 1px 3px #000; }
+      #main-container #hero #tag-line span {
+        font-size: 30px;
+        font-weight: 300; }
+    #main-container #hero #scroll-down {
+      padding-top: 100px;
+      color: #fff;
+      text-shadow: 1px 1px 3px #000; }
+  #main-container #photography {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #ebebeb; }
+    #main-container #photography h3 {
+      color: #000;
+      margin-top: 0px; }
+    @media only screen and (max-width: 778px) {
+      #main-container #photography {
+        padding-top: 30px;
+        padding-bottom: 30px; } }
+    #main-container #photography .row {
+      padding-bottom: 0px; }
+      #main-container #photography .row p {
+        font-size: 16px;
+        font-weight: 300;
+        color: #555555; }
+    #main-container #photography .row:first-child {
+      padding-bottom: 20px; }
+      @media only screen and (max-width: 778px) {
+        #main-container #photography .row:first-child {
+          padding-bottom: 10px; } }
+    #main-container #photography .row:last-child {
+      padding-left: 15px;
+      padding-right: 15px; }
+      #main-container #photography .row:last-child a {
+        color: #000; }
+    #main-container #photography .portfolio-photo {
+      padding: 0px;
+      background-size: cover;
+      background-position: center center; }
+      #main-container #photography .portfolio-photo .overlay {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(50, 50, 50, 0.2); }
+        #main-container #photography .portfolio-photo .overlay:hover {
+          background-color: rgba(200, 200, 200, 0.5);
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out; }
+        #main-container #photography .portfolio-photo .overlay .portfolio-desc {
+          width: 100%;
+          text-align: center; }
+          #main-container #photography .portfolio-photo .overlay .portfolio-desc p {
+            margin: 0;
+            color: #fff;
+            font-size: 30px;
+            font-weight: 300;
+            text-shadow: 1px 1px 3px #000; }
+  #main-container #video {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff; }
+    #main-container #video h3 {
+      color: #000;
+      margin-top: 0px; }
+    @media only screen and (max-width: 778px) {
+      #main-container #video {
+        padding-top: 30px;
+        padding-bottom: 30px; } }
+    #main-container #video .row {
+      padding-bottom: 0px; }
+      #main-container #video .row p {
+        font-size: 16px;
+        font-weight: 300;
+        color: #6e6e6e; }
+    #main-container #video .row:first-child {
+      padding-bottom: 20px; }
+      @media only screen and (max-width: 778px) {
+        #main-container #video .row:first-child {
+          padding-bottom: 10px; } }
+    @media only screen and (max-width: 778px) {
+      #main-container #video #video-selector-container {
+        width: 100%;
+        overflow-x: scroll; } }
+    #main-container #video #video-selector {
+      list-style-type: none;
+      padding-left: 0;
+      overflow-x: hidden;
+      overflow-y: scroll; }
+      @media only screen and (max-width: 778px) {
+        #main-container #video #video-selector {
+          display: inline-block;
+          height: 100px;
+          width: 910px;
+          overflow-y: hidden;
+          overflow-x: scroll; } }
+      #main-container #video #video-selector li {
+        padding: 5px 0 5px 0; }
+        @media only screen and (max-width: 778px) {
+          #main-container #video #video-selector li {
+            height: 100px;
+            width: 177px;
+            display: inline-block;
+            float: left;
+            padding: 0px 5px; } }
+      #main-container #video #video-selector li:first-child {
+        padding-top: 0px; }
+    #main-container #video #video-well p {
+      padding-top: 20px;
+      color: #3b3b3b; }
+    #main-container #video #video-well h4 {
+      margin-top: 0px; }
+  #main-container #development {
+    padding-top: 60px;
+    padding-bottom: 0px;
+    background-color: #fff; }
+    #main-container #development h3 {
+      color: #000;
+      margin-top: 0px; }
+    @media only screen and (max-width: 778px) {
+      #main-container #development {
+        padding-top: 30px;
+        padding-bottom: 0px; } }
+    #main-container #development .row {
+      padding-bottom: 0px; }
+      #main-container #development .row p {
+        font-size: 16px;
+        font-weight: 300;
+        color: #6e6e6e; }
+    #main-container #development .row:first-child {
+      padding-bottom: 60px; }
+      @media only screen and (max-width: 778px) {
+        #main-container #development .row:first-child {
+          padding-bottom: 30px; } }
+    #main-container #development .container-fluid {
+      padding: 0; }
+    #main-container #development #development-portfolio {
+      margin: 0;
+      padding-bottom: 0px; }
+      #main-container #development #development-portfolio .item {
+        padding-top: 60px;
+        padding-bottom: 90px;
+        width: 100%; }
+      #main-container #development #development-portfolio .cta {
+        margin-top: 30px;
+        text-align: center; }
+        #main-container #development #development-portfolio .cta .btn {
+          color: #888888; }
+      #main-container #development #development-portfolio #farmup {
+        background-color: #428bca;
+        background-color: #5cb85c; }
+        #main-container #development #development-portfolio #farmup h3, #main-container #development #development-portfolio #farmup p {
+          color: #fff; }
+        #main-container #development #development-portfolio #farmup a {
+          color: #fff;
+          text-decoration: underline; }
+        #main-container #development #development-portfolio #farmup .btn {
+          color: #888888;
+          text-decoration: none; }
+      #main-container #development #development-portfolio #randevu {
+        background-color: #51A1D8; }
+        #main-container #development #development-portfolio #randevu h3, #main-container #development #development-portfolio #randevu p {
+          color: #fff; }
+        #main-container #development #development-portfolio #randevu a {
+          color: #fff;
+          text-decoration: underline; }
+        #main-container #development #development-portfolio #randevu .btn {
+          color: #888888;
+          text-decoration: none; }
+      #main-container #development #development-portfolio #monteblanco {
+        background-color: #e6a623; }
+        #main-container #development #development-portfolio #monteblanco h3, #main-container #development #development-portfolio #monteblanco p {
+          color: #fff; }
+      #main-container #development #development-portfolio #paradigmas {
+        background-color: #c82472; }
+        #main-container #development #development-portfolio #paradigmas h3, #main-container #development #development-portfolio #paradigmas p {
+          color: #fff; }
+        #main-container #development #development-portfolio #paradigmas a {
+          color: #fff;
+          text-decoration: underline; }
+        #main-container #development #development-portfolio #paradigmas .btn {
+          color: #888888;
+          text-decoration: none; }
+      #main-container #development #development-portfolio .owl-controls {
+        margin-top: -30px; }
+        #main-container #development #development-portfolio .owl-controls .owl-page.active span {
+          background-color: #000;
+          opacity: 0.5; }
+        #main-container #development #development-portfolio .owl-controls .owl-page span {
+          background-color: #fff;
+          opacity: 0.5; }
+  #main-container #about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #ebebeb; }
+    #main-container #about h3 {
+      color: #000;
+      margin-top: 0px; }
+    @media only screen and (max-width: 778px) {
+      #main-container #about {
+        padding-top: 30px;
+        padding-bottom: 30px; } }
+    #main-container #about .row {
+      padding-bottom: 0px; }
+      #main-container #about .row p {
+        font-size: 16px;
+        font-weight: 300;
+        color: #555555; }
+    #main-container #about .row:first-child {
+      padding-bottom: 0px; }
+      @media only screen and (max-width: 778px) {
+        #main-container #about .row:first-child {
+          padding-bottom: 0px; } }
+    #main-container #about .profile {
+      margin-bottom: 15px; }
+      #main-container #about .profile p {
+        margin-bottom: 5px; }
+  #main-container #contact {
+    padding-top: 60px;
+    padding-bottom: 5px;
+    background-color: #434d55; }
+    #main-container #contact h3 {
+      color: #fff;
+      margin-top: 0px; }
+    @media only screen and (max-width: 778px) {
+      #main-container #contact {
+        padding-top: 30px;
+        padding-bottom: 2.5px; } }
+    #main-container #contact .row {
+      padding-bottom: 0px; }
+      #main-container #contact .row p {
+        font-size: 20px;
+        font-weight: 300;
+        color: #e1e1e1; }
+    #main-container #contact .row:first-child {
+      padding-bottom: 0px; }
+      @media only screen and (max-width: 778px) {
+        #main-container #contact .row:first-child {
+          padding-bottom: 0px; } }
+    #main-container #contact a {
+      color: #e1e1e1; }
+      #main-container #contact a:hover {
+        color: #fff; }
+    #main-container #contact #social-footer {
+      list-style-type: none;
+      width: 100%;
+      padding: 10px 0px 0px 0px; }
+      #main-container #contact #social-footer li {
+        display: inline-block; }
+        #main-container #contact #social-footer li a {
+          padding-left: 15px;
+          padding-right: 15px; }
+          @media only screen and (max-width: 778px) {
+            #main-container #contact #social-footer li a {
+              padding-left: 10px;
+              padding-right: 10px; } }
+    #main-container #contact .credits {
+      text-align: center;
+      padding-top: 35px; }
+      #main-container #contact .credits p {
+        font-size: 12px;
+        font-weight: 400;
+        color: #aeaeae; }
+
+/* ==========================================================================
+	Plugins
+   ========================================================================== */
+/*  Typed.js */
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=main.css.map */
