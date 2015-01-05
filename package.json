@@ -1,5 +1,9 @@
 {
-  "name": "luismendozamx-github-io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luismendozamx/mendoza.io.git"
+  },
+  "name": "mendoza.io",
   "devDependencies": {
     "apache-server-configs": "^2.7.1",
     "grunt": "^0.4.5",
