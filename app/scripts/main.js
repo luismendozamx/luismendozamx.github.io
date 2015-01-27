@@ -23,9 +23,7 @@ $(document).ready( function() {
 	});
 
 	var i = 0;
-	
 	//Typed.js
-	/*
 	$(".typed").typed({
 		strings: ["write code.", "take photos.", "shoot films.", "build cool things."],
 		typeSpeed: 30,
@@ -38,7 +36,7 @@ $(document).ready( function() {
 				removeTagLine();
 			i++;
 		}
-	});*/
+	});
 
 	$('#development-portfolio').owlCarousel({
         navigation : false, // Show next and prev buttons
