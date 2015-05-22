@@ -6,6 +6,7 @@
     "modernizr": "~2.8.2",
     "typed.js": "*",
     "fontawesome": "~4.2.0",
-    "OwlCarousel": "~1.3.2"
+    "OwlCarousel": "~1.3.2",
+    "headroom.js": "~0.7.0"
   }
 }

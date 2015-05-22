@@ -15,6 +15,11 @@ $(document).ready( function() {
 		$( "#nav" ).fadeIn( "medium", "swing" );
 	});
 
+	$("#menu").headroom({
+		offset : 70,
+    tolerance : 20
+  });
+
 	$( "#nav-close" ).click(function() {
 		/*if( $(window).width() < 768 ){
 			$('#main-container').css("position", "relative");
@@ -24,7 +29,7 @@ $(document).ready( function() {
 
 	var i = 0;
 	//Typed.js
-	$(".typed").typed({
+	/*$(".typed").typed({
 		strings: ["write code.", "take photos.", "shoot films.", "build cool things."],
 		typeSpeed: 30,
 		startDelay: 100,
@@ -36,7 +41,7 @@ $(document).ready( function() {
 				removeTagLine();
 			i++;
 		}
-	});
+	});*/
 
 	$('#development-portfolio').owlCarousel({
         navigation : false, // Show next and prev buttons
