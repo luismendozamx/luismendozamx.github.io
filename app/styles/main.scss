@@ -109,7 +109,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
       padding-bottom:20px;
     }
   }
-  
+
 }
 
 .headroom {
@@ -130,7 +130,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   position: relative;
   background-position: center center;
   background-size: cover;
-  
+
   #menu{
     width: 100%;
     z-index: 200;
@@ -144,7 +144,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
     h3{
       margin: 0;
       vertical-align: middle;
-    }   
+    }
 
     @include transition(all 0.5s ease-in);
   }
@@ -194,7 +194,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
       background-color: rgba(42, 42, 42, 0.9);
       z-index: 150;
     }
-      
+
     .overlay{
       background-color: rgba(1, 1, 1, 0.25);
       width: 100%;
@@ -249,7 +249,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
     .portfolio-photo{
       padding: 0px;
       background-size: cover;
-      background-position: center center; 
+      background-position: center center;
 
       .overlay{
         height: 100%;
@@ -277,7 +277,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
         &:hover{
           p{
-            
+
           }
         }
       }
@@ -325,7 +325,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
       li:first-child{
         padding-top: 0px;
       }
-      
+
     }
 
     #video-well{
@@ -342,8 +342,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   }
 
   #development{
-    @include section(60px, 0px, 60px, 0px, 16px, #fff, darken(#eee, 50%), #000);
-    
+    @include section(0, 0, 60px, 0, 16px, #fff, darken(#eee, 50%), #000);
+
     .container-fluid{
       padding: 0;
     }
@@ -370,9 +370,9 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
       #farmup{
         background-color: #428bca;
         background-color: #5cb85c;
-        
+
         h3, p{
-          color: #fff;  
+          color: #fff;
         }
 
         a{
@@ -388,9 +388,9 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
       #randevu{
         background-color: #51A1D8;
-        
+
         h3, p{
-          color: #fff;  
+          color: #fff;
         }
 
         a{
@@ -406,9 +406,9 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
       #monteblanco{
         background-color: #e6a623;
-        
+
         h3, p{
-          color: #fff;  
+          color: #fff;
         }
       }
 
@@ -416,7 +416,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
         background-color: lighten(#c42370, 1%);
 
         h3, p{
-          color: #fff;  
+          color: #fff;
         }
 
         a{
@@ -428,7 +428,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
           color: darken(#eee, 40%);
           text-decoration: none;
         }
-      }     
+      }
 
       .owl-controls{
         margin-top: -30px;
@@ -458,7 +458,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
       p{
         margin-bottom: 5px;
       }
-    } 
+    }
   }
 
   #contact{
@@ -501,7 +501,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
         font-weight: 400;
         color: darken(#eee, 25%);
       }
-      
+
     }
 
   }
