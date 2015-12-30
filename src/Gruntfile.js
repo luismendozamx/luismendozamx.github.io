@@ -19,7 +19,7 @@ module.exports = function (grunt) {
   // Configurable paths
   var config = {
     app: 'app',
-    dist: 'dist'
+    dist: '../dist'
   };
 
   // Define the configuration for all the tasks
@@ -350,7 +350,7 @@ module.exports = function (grunt) {
           expand: true,
           dot: true,
           cwd: '.',
-          src: ['bower_components/OwlCarousel/owl-carousel/**'], 
+          src: ['bower_components/OwlCarousel/owl-carousel/**'],
           dest: '<%= config.dist %>'
         }]
       },
