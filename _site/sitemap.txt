@@ -1,0 +1,11 @@
+
+http://luismendozamx.github.io/archive
+http://luismendozamx.github.io/atom.xml
+http://luismendozamx.github.io/categories
+http://luismendozamx.github.io/
+http://luismendozamx.github.io/pages
+http://luismendozamx.github.io/rss.xml
+http://luismendozamx.github.io/sitemap.txt
+http://luismendozamx.github.io/tags
+
+http://luismendozamx.github.io/lessons/2011/12/29/jekyll-introduction
