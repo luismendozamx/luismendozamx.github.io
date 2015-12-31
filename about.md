@@ -12,5 +12,5 @@ Hi! My name is Luis Enrique Mendoza.
 
 I'm a software engineer and photographer based in Mexico City.
 
-I study Computer Engineering at ITAM and work as a front-end web developer at [Kiwi](https://www.usekiwi.com). I also do professional wedding photography with [Se Toman Fotos](http://setomanfotos.com).
+I study Computer Engineering at ITAM and work as a front-end web developer at [Kiwi](https://www.usekiwi.com){:target="blank"}. I also do professional wedding photography with [Se Toman Fotos](http://setomanfotos.com){:target="blank"}.
 

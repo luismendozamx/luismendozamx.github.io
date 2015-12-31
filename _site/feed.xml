@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Luis Mendoza | Front-end developer and wedding photographer</title>
-    <description>Based in Mexico City, Luis Mendoza (@luismendozamx) works on front-end and full-stack web development with Ember.js, Angular, and Rails.
+    <title>Luis Mendoza | web developer and wedding photographer</title>
+    <description>Luis Mendoza (@luismendozamx) is a web developer and wedding photographer from Mexico City. He specializes in Javascript and Ruby using Ember.js and Rails.
 </description>
     <link>http://blog.mendoza.io/</link>
     <atom:link href="http://blog.mendoza.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Dec 2015 16:36:55 -0600</pubDate>
-    <lastBuildDate>Thu, 31 Dec 2015 16:36:55 -0600</lastBuildDate>
+    <pubDate>Thu, 31 Dec 2015 17:23:22 -0600</pubDate>
+    <lastBuildDate>Thu, 31 Dec 2015 17:23:22 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Hello World! Bye, bye 2015</title>
+        <description>&lt;p&gt;During the past couple years I’ve constantly promised myself I will
+start writing, but I never manage to keep my promise. The end of 2015
+seems like the perfect moment to start doing it. This year has been one
+of the most exicting in my life. A lot of things happened in the last
+365 days.&lt;/p&gt;
+
+&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 31 Dec 2015 10:00:00 -0600</pubDate>
+        <link>http://blog.mendoza.io/en/2015/12/31/hello-world-bye-2015.html</link>
+        <guid isPermaLink="true">http://blog.mendoza.io/en/2015/12/31/hello-world-bye-2015.html</guid>
+        
+        
+        <category>en</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
