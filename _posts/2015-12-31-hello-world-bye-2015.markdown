@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello, World! Bye, bye, 2015"
+title:  "Hello, World! Bye bye 2015"
 author: Luis Mendoza
 date:   2015-12-31 19:00:00 -0600
 categories: en

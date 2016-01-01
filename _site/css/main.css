@@ -5810,7 +5810,55 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /*
+ * ===================================================
  * General
+ * ====================================================
  */
 body {
   padding-top: 70px; }
+
+#main-container {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+#home-container {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+#footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #ddd;
+  color: #b3b3b3; }
+  #footer a {
+    color: gray; }
+  #footer .content-left {
+    text-align: left; }
+    @media only screen and (max-width: 778px) {
+      #footer .content-left {
+        padding-bottom: 20px;
+        text-align: center; } }
+  #footer .content-right {
+    text-align: right; }
+    @media only screen and (max-width: 778px) {
+      #footer .content-right {
+        padding-top: 20px;
+        text-align: center; } }
+  #footer .social-nav {
+    width: 100%;
+    padding: 0;
+    list-style: none; }
+    #footer .social-nav li {
+      display: table-cell;
+      width: 1%;
+      text-align: center; }
+      #footer .social-nav li a:hover {
+        color: #4d4d4d; }
+
+/*
+ * ===================================================
+ * Posts
+ * ====================================================
+ */
+#post {
+  padding-bottom: 60px; }
