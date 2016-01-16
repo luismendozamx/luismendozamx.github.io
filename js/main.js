@@ -5,4 +5,9 @@
  */
 
 $(document).ready(function() {
+  targetLinks();
 });
+
+function targetLinks() {
+  $('article a').attr('target', '_blank');
+}

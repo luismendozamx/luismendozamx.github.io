@@ -25,7 +25,7 @@ En esta guía se utilizaran dos <i>frameworks</i>:
 Escrito en [Ruby](https://es.wikipedia.org/wiki/Ruby) y considerado como uno de los padres de los <i>frameworks</i> web. Con éste se desarrolló la versión inicial de Twitter y es utilizado en empresas como Github y Airbnb. Lo utilizaremos para construir el [API](https://en.wikipedia.org/wiki/Application_programming_interface) (término que será explicado más tarde) de nuestro aplicación. Éste será el <i>backend</i> de nuestra aplicación.
 
 * #####Ember.js:
-Escrito en [JavaScript](https://es.wikipedia.org/wiki/JavaScript), es un <i>framework</i> para construir apliciones web de lado del cliente, <i>i.e.</i> que se ejecutan en el navegador del usuario. Este tipo de aplicaciones son llamadas <a href="https://es.wikipedia.org/wiki/Single-page_application"><i>Single Page Applications</i></a>. Un ejemplo de estas es la página web de Netflix o el player web de Spotify. Éste será el <i>frontend</i> de nuestra aplicación.
+Escrito en [JavaScript](https://es.wikipedia.org/wiki/JavaScript), es un <i>framework</i> para construir apliciones web de lado del cliente, <i>i.e.</i> que se ejecutan en el navegador del usuario. Este tipo de aplicaciones son llamadas <a href="https://es.wikipedia.org/wiki/Single-page_application"><i>Single Page Applications</i></a>. Un ejemplo de estas es la página web de Netflix o el reproductor web de Spotify. Éste será el <i>frontend</i> de nuestra aplicación.
 
 ####¿A quién va dirigida esta guía?
 

@@ -6,8 +6,8 @@
 </description>
     <link>http://mendoza.io/</link>
     <atom:link href="http://mendoza.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Jan 2016 11:54:04 -0600</pubDate>
-    <lastBuildDate>Sat, 16 Jan 2016 11:54:04 -0600</lastBuildDate>
+    <pubDate>Sat, 16 Jan 2016 12:07:39 -0600</pubDate>
+    <lastBuildDate>Sat, 16 Jan 2016 12:07:39 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -33,7 +33,7 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h5 id=&quot;emberjs&quot;&gt;Ember.js:&lt;/h5&gt;
-    &lt;p&gt;Escrito en &lt;a href=&quot;https://es.wikipedia.org/wiki/JavaScript&quot;&gt;JavaScript&lt;/a&gt;, es un &lt;i&gt;framework&lt;/i&gt; para construir apliciones web de lado del cliente, &lt;i&gt;i.e.&lt;/i&gt; que se ejecutan en el navegador del usuario. Este tipo de aplicaciones son llamadas &lt;a href=&quot;https://es.wikipedia.org/wiki/Single-page_application&quot;&gt;&lt;i&gt;Single Page Applications&lt;/i&gt;&lt;/a&gt;. Un ejemplo de estas es la página web de Netflix o el player web de Spotify. Éste será el &lt;i&gt;frontend&lt;/i&gt; de nuestra aplicación.&lt;/p&gt;
+    &lt;p&gt;Escrito en &lt;a href=&quot;https://es.wikipedia.org/wiki/JavaScript&quot;&gt;JavaScript&lt;/a&gt;, es un &lt;i&gt;framework&lt;/i&gt; para construir apliciones web de lado del cliente, &lt;i&gt;i.e.&lt;/i&gt; que se ejecutan en el navegador del usuario. Este tipo de aplicaciones son llamadas &lt;a href=&quot;https://es.wikipedia.org/wiki/Single-page_application&quot;&gt;&lt;i&gt;Single Page Applications&lt;/i&gt;&lt;/a&gt;. Un ejemplo de estas es la página web de Netflix o el reproductor web de Spotify. Éste será el &lt;i&gt;frontend&lt;/i&gt; de nuestra aplicación.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
