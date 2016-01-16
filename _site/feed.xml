@@ -6,19 +6,34 @@
 </description>
     <link>http://mendoza.io/</link>
     <atom:link href="http://mendoza.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Jan 2016 20:06:19 -0600</pubDate>
-    <lastBuildDate>Fri, 15 Jan 2016 20:06:19 -0600</lastBuildDate>
+    <pubDate>Fri, 15 Jan 2016 21:23:09 -0600</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2016 21:23:09 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Una Guía para aprender a crear aplicaciones web modernas con Ruby on Rails y Ember.js (Parte 1)</title>
-        <description>&lt;p&gt;Es difícil darse cuenta qué rápido se mueve el mundo de la tecnología. Para los que nos dedicamos —o queremos dedicar— a esto de la &lt;i&gt;programación&lt;/i&gt; puede llegar a ser una tarea arbumadora entender qué lenguajes y frameworks aprender. Yo pasé por ahí. La realidad es que existe un mundo increíble de documentación y conocimiento listo para ser consumido, pero saber por dónde empezar es como empezar a aprender otro idioma.&lt;/p&gt;
+        <description>&lt;p&gt;Es difícil darse cuenta qué rápido se mueve el mundo de la tecnología. Para los que nos dedicamos —o queremos dedicar— a esto de la &lt;i&gt;programación&lt;/i&gt;. Puede llegar a ser una tarea arbumadora entender qué lenguajes y frameworks aprender. Yo pasé por ahí. La realidad es que existe un mundo increíble de documentación y conocimiento listo para ser consumido, pero saber por dónde empezar es como empezar a aprender otro idioma.&lt;/p&gt;
 
-&lt;p&gt;Hay que meterse en un mundo lleno de git, GET, POST, jQuery, AJAX, SaSS, SQL, NoSQl, REST, foo, baz, var y quien sabe que otras palabras; más aparte términos como sistemas de integración continua, pruebas unitarias y de integración, control de versiones… Y un millón y medio de términos que hay que entender en algún momento. Y a eso se le tiene que agregar la de por sí compleja tarea de tener que programar.&lt;/p&gt;
+&lt;p&gt;Hay que meterse en un mundo lleno de git, GET, POST, jQuery, AJAX, SaSS, SQL, NoSQl, REST, foo, baz, var y quien sabe que otras palabras. También hay palabras como sistemas de integración continua, pruebas unitarias y de integración, control de versiones… Y un millón y medio de términos que hay que entender en algún momento para ser un profesional del desarrollo de aplicaciones web y/o móviles. Y a eso se le tiene que agregar la de por sí compleja tarea de programar&amp;gt;.&lt;/p&gt;
 
-&lt;p&gt;Cuando la gente me pregunta que lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y utilizar herramientas que cumplen con estos requerimientos.&lt;/p&gt;
+&lt;p&gt;Cuando la gente me pregunta qué lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y utilizar herramientas que cumplen con estos requerimientos. Por sistemas web modernos a aplicaciones cuya infraestructura es similar a lo que hacen las empresas más exitosas de tecnología. Me refiero a empresas como Google, Facebook, Twitter, Dropbox, Slack, Spotify, etc…&lt;/p&gt;
 
-&lt;p&gt;Las herremientas que vamos a utilizar son &lt;i&gt;frameworks&lt;/i&gt;. Librerías de código que simplifican este proceso y abstraen las tareas repetitivas y código base que todas las aplicaciones requieren. Pero ese es solamente un beneficio agregado de utilizar un &lt;i&gt;framework&lt;/i&gt;. La ventaja principal y razón de ser de un &lt;i&gt;framework&lt;/i&gt; es el uso de &lt;i&gt;patrones de diseño&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;Las herremientas que vamos a utilizar son &lt;i&gt;frameworks&lt;/i&gt;. Librerías de código que simplifican el proceso de desarrollo y abstraen las tareas repetitivas y código base que todas las aplicaciones requieren. Pero ese es solamente un beneficio agregado de utilizar un &lt;i&gt;framework&lt;/i&gt;. La ventaja principal y razón de ser de un &lt;i&gt;framework&lt;/i&gt; es el uso de &lt;i&gt;patrones de diseño&lt;/i&gt;.&lt;/p&gt;
+
+&lt;p&gt;Estos últimos no son formas de programar o funciones de los lenguajes de programación, son más bien la manera en que se piensa como interactúan las partes del código.&lt;/p&gt;
+
+&lt;p&gt;En esta guía se utilizaran dos &lt;i&gt;frameworks&lt;/i&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;ruby-on-rails&quot;&gt;Ruby on Rails:&lt;/h5&gt;
+    &lt;p&gt;Escrito en Ruby y considerado como uno de los padres de los &lt;i&gt;frameworks&lt;/i&gt; web. Con éste se desarrolló la versión inicial de Twitter y es utilizado en empresas como Github y Airbnb. Lo utilizaremos para construir el API (término que será explicado en un momento) de nuestro aplicación.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;emberjs&quot;&gt;Ember.js:&lt;/h5&gt;
+    &lt;p&gt;Escrito en JavaScript, es un &lt;i&gt;framework&lt;/i&gt; para construir apliciones web de lado del cliente, &lt;i&gt;i.e.&lt;/i&gt; que se ejecutan en el navegador del usuario. Este tipo de aplicaciones son llamdas &lt;i&gt;Single Page Applications&lt;/i&gt;. Un ejemplo de estas es la página web de Netflix o el player web de Spotify.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Fri, 15 Jan 2016 19:00:00 -0600</pubDate>
         <link>http://mendoza.io/es/2016/01/15/guia-rails-y-ember/</link>
