@@ -40,7 +40,7 @@ A few things that happened this year:
 * Photographed 24 weddings
 * Launched 3 shopify stores
 * Learned Vim
-* Quitted smoking cigarettes
+* Quit smoking cigarettes
 
 Here is my github contribuitions graph:
 
