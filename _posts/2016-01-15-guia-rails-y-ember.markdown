@@ -28,3 +28,13 @@ Escrito en [JavaScript](https://es.wikipedia.org/wiki/JavaScript), es un <i>fram
 ####¿A quién va dirigida esta guía?
 
 El contenido de estos posts no está dirigido a quienes están aprendiendo a programar. Está más bien pensado para alguien que tiene nociones generales de programación y conoce principios de [programación orientada a objetos](https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos) y el funcionamiento de por lo menos algún lenguaje de [scripting](https://en.wikipedia.org/wiki/Scripting_language) (Python, PHP, Perl, Ruby, JavaScript, etc). El objetivo es aprender los conceptos claves del desarrollo web moderno a través de contruir una aplicación que siga los prinicipios y tendencias actuales del mundo del desarrollo.
+
+Al final de una serie de posts será más fácil entender cuáles son las herramientas que hay que aprender para construir aplicaciones web modernas.
+
+Esta guía será publicada en una serie de posts.
+
+* Parte 1: La arquitectura de una aplicación web moderna
+* Parte 2: Setup para desarrollar aplicaciones con Ruby on Rails y Ember.js
+* Parte 3: Desarrollo de un API con Ruby on Rails
+* Parte 4: Desarrollo de un SPA con Ember.js y ember-cli
+* Parte 5: Despliegue de aplicaciones web usando Heroku y AWS
