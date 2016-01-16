@@ -11,7 +11,9 @@ Es difícil darse cuenta qué rápido se mueve el mundo de la tecnología. Para 
 
 Hay que meterse en un mundo lleno de git, GET, POST, jQuery, AJAX, SaSS, SQL, NoSQl, REST, foo, baz, var y quien sabe que otras palabras. Un millón y medio de términos que hay que entender en algún momento para ser un profesional del desarrollo de aplicaciones web y/o móviles. Y a eso se le tiene que agregar la de por sí compleja tarea de programar.
 
-Cuando la gente me pregunta qué lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y utilizar herramientas que cumplen con estos requerimientos. Por sistemas web modernos a aplicaciones cuya infraestructura es similar a lo que hacen las empresas más exitosas de tecnología. Me refiero a empresas como Google, Facebook, Twitter, Dropbox, Slack, Spotify, etc...
+Cuando la gente me pregunta qué lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y utilizar herramientas que cumplen con estos requerimientos.
+
+Con sistemas web modernos me refiero a aplicaciones cuya infraestructura es similar a lo que hacen las empresas más exitosas de tecnología. Me refiero a empresas como Google, Facebook, Twitter, Dropbox, Slack, Spotify, etc...
 
 Las herremientas que vamos a utilizar son <a href="https://es.wikipedia.org/wiki/Ruby_on_Rails"><i>frameworks</i></a>. Librerías de código que simplifican el proceso de desarrollo y abstraen las tareas repetitivas y código base que todas las aplicaciones requieren. Pero ese es solamente un beneficio agregado de utilizar un <i>framework</i>. La ventaja principal y razón de ser de un <i>framework</i> es el uso de <i>patrones de diseño</i>.
 

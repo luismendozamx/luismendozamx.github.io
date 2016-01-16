@@ -80,3 +80,41 @@ body{
 #post{
   padding-bottom: 60px;
 }
+
+/*
+ * ===================================================
+ * Article styles
+ * ====================================================
+ */
+
+article{
+  a{
+    color: #333333;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 19px;
+
+    &:hover{
+      color: darken(#b3b3b3, 20%);
+      text-decoration: none;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
+      background-repeat: repeat-x;
+      background-size: 2px 2px;
+      background-position: 0 19px;
+    }
+  }
+
+  p{
+    line-height: 1.58;
+    letter-spacing: 0.004em;
+    margin-bottom: 16px;
+    font-size: 21px;
+
+    @media only screen and (max-width: 778px){
+      font-size: 18px;
+      line-height: 1.4;
+    }
+  }
+}

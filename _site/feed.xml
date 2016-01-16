@@ -6,8 +6,8 @@
 </description>
     <link>http://mendoza.io/</link>
     <atom:link href="http://mendoza.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Jan 2016 11:15:36 -0600</pubDate>
-    <lastBuildDate>Sat, 16 Jan 2016 11:15:36 -0600</lastBuildDate>
+    <pubDate>Sat, 16 Jan 2016 11:49:46 -0600</pubDate>
+    <lastBuildDate>Sat, 16 Jan 2016 11:49:46 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -16,7 +16,9 @@
 
 &lt;p&gt;Hay que meterse en un mundo lleno de git, GET, POST, jQuery, AJAX, SaSS, SQL, NoSQl, REST, foo, baz, var y quien sabe que otras palabras. Un millón y medio de términos que hay que entender en algún momento para ser un profesional del desarrollo de aplicaciones web y/o móviles. Y a eso se le tiene que agregar la de por sí compleja tarea de programar.&lt;/p&gt;
 
-&lt;p&gt;Cuando la gente me pregunta qué lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y utilizar herramientas que cumplen con estos requerimientos. Por sistemas web modernos a aplicaciones cuya infraestructura es similar a lo que hacen las empresas más exitosas de tecnología. Me refiero a empresas como Google, Facebook, Twitter, Dropbox, Slack, Spotify, etc…&lt;/p&gt;
+&lt;p&gt;Cuando la gente me pregunta qué lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y utilizar herramientas que cumplen con estos requerimientos.&lt;/p&gt;
+
+&lt;p&gt;Con sistemas web modernos me refiero a aplicaciones cuya infraestructura es similar a lo que hacen las empresas más exitosas de tecnología. Me refiero a empresas como Google, Facebook, Twitter, Dropbox, Slack, Spotify, etc…&lt;/p&gt;
 
 &lt;p&gt;Las herremientas que vamos a utilizar son &lt;a href=&quot;https://es.wikipedia.org/wiki/Ruby_on_Rails&quot;&gt;&lt;i&gt;frameworks&lt;/i&gt;&lt;/a&gt;. Librerías de código que simplifican el proceso de desarrollo y abstraen las tareas repetitivas y código base que todas las aplicaciones requieren. Pero ese es solamente un beneficio agregado de utilizar un &lt;i&gt;framework&lt;/i&gt;. La ventaja principal y razón de ser de un &lt;i&gt;framework&lt;/i&gt; es el uso de &lt;i&gt;patrones de diseño&lt;/i&gt;.&lt;/p&gt;
 
