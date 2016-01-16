@@ -6,9 +6,28 @@
 </description>
     <link>http://mendoza.io/</link>
     <atom:link href="http://mendoza.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Jan 2016 14:42:36 -0600</pubDate>
-    <lastBuildDate>Fri, 01 Jan 2016 14:42:36 -0600</lastBuildDate>
+    <pubDate>Fri, 15 Jan 2016 20:06:19 -0600</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2016 20:06:19 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Una Guía para aprender a crear aplicaciones web modernas con Ruby on Rails y Ember.js (Parte 1)</title>
+        <description>&lt;p&gt;Es difícil darse cuenta qué rápido se mueve el mundo de la tecnología. Para los que nos dedicamos —o queremos dedicar— a esto de la &lt;i&gt;programación&lt;/i&gt; puede llegar a ser una tarea arbumadora entender qué lenguajes y frameworks aprender. Yo pasé por ahí. La realidad es que existe un mundo increíble de documentación y conocimiento listo para ser consumido, pero saber por dónde empezar es como empezar a aprender otro idioma.&lt;/p&gt;
+
+&lt;p&gt;Hay que meterse en un mundo lleno de git, GET, POST, jQuery, AJAX, SaSS, SQL, NoSQl, REST, foo, baz, var y quien sabe que otras palabras; más aparte términos como sistemas de integración continua, pruebas unitarias y de integración, control de versiones… Y un millón y medio de términos que hay que entender en algún momento. Y a eso se le tiene que agregar la de por sí compleja tarea de tener que programar.&lt;/p&gt;
+
+&lt;p&gt;Cuando la gente me pregunta que lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y utilizar herramientas que cumplen con estos requerimientos.&lt;/p&gt;
+
+&lt;p&gt;Las herremientas que vamos a utilizar son &lt;i&gt;frameworks&lt;/i&gt;. Librerías de código que simplifican este proceso y abstraen las tareas repetitivas y código base que todas las aplicaciones requieren. Pero ese es solamente un beneficio agregado de utilizar un &lt;i&gt;framework&lt;/i&gt;. La ventaja principal y razón de ser de un &lt;i&gt;framework&lt;/i&gt; es el uso de &lt;i&gt;patrones de diseño&lt;/i&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Jan 2016 19:00:00 -0600</pubDate>
+        <link>http://mendoza.io/es/2016/01/15/guia-rails-y-ember/</link>
+        <guid isPermaLink="true">http://mendoza.io/es/2016/01/15/guia-rails-y-ember/</guid>
+        
+        
+        <category>es</category>
+        
+      </item>
     
       <item>
         <title>Hello, World! Bye bye 2015</title>
