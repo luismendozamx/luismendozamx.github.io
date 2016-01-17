@@ -17,7 +17,7 @@ Existe un mundo increíble de documentación y conocimiento listo para ser consu
 
 Hay que meterse en un mundo lleno de *git, GET, POST, jQuery, AJAX, SaSS, SQL, NoSQl, REST, foo, baz, var* y quien sabe que otras palabras. Un millón y medio de términos que hay que entender en algún momento para ser un profesional del desarrollo de aplicaciones web y/o móviles. Y a eso se le tiene que agregar la de por sí compleja tarea de programar.
 
-Cuando la gente me pregunta qué lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y las herramientas de trabajo que se utilizan.
+Cuando la gente me pregunta qué lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y las herramientas de trabajo que se utilizan en el proceso.
 
 Con sistemas web modernos me refiero a aplicaciones cuya infraestructura es similar a lo que hacen las empresas más exitosas de tecnología. Empresas como Google, Facebook, Twitter, Dropbox, Slack, Spotify, etc...
 
@@ -25,7 +25,7 @@ Las herremientas que vamos a utilizar son <a href="https://es.wikipedia.org/wiki
 
 Estos últimos no son formas de programar o funciones de los lenguajes de programación. Son más bien la manera en que se piensa cómo interactúan las partes del código y la separación de responsabilidades y abtracción de tareas que realiza cada parte del código.
 
-En esta guía se utilizaran dos <i>frameworks</i>:
+En esta guía se utilizarán dos <i>frameworks</i>:
 
 * #####Ruby on Rails:
 Escrito en [Ruby](https://es.wikipedia.org/wiki/Ruby) y considerado como uno de los padres de los <i>frameworks</i> web. Con éste se desarrolló la versión inicial de Twitter y es utilizado en empresas como Github y Airbnb. Lo utilizaremos para construir el [API](https://en.wikipedia.org/wiki/Application_programming_interface) (término que será explicado más tarde) de nuestro aplicación. Éste será el <i>backend</i> de la aplicación.

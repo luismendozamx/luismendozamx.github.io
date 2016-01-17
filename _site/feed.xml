@@ -6,8 +6,8 @@
 </description>
     <link>http://mendoza.io/</link>
     <atom:link href="http://mendoza.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Jan 2016 11:10:22 -0600</pubDate>
-    <lastBuildDate>Sun, 17 Jan 2016 11:10:22 -0600</lastBuildDate>
+    <pubDate>Sun, 17 Jan 2016 16:34:55 -0600</pubDate>
+    <lastBuildDate>Sun, 17 Jan 2016 16:34:55 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -22,7 +22,7 @@
 
 &lt;p&gt;Hay que meterse en un mundo lleno de &lt;em&gt;git, GET, POST, jQuery, AJAX, SaSS, SQL, NoSQl, REST, foo, baz, var&lt;/em&gt; y quien sabe que otras palabras. Un millón y medio de términos que hay que entender en algún momento para ser un profesional del desarrollo de aplicaciones web y/o móviles. Y a eso se le tiene que agregar la de por sí compleja tarea de programar.&lt;/p&gt;
 
-&lt;p&gt;Cuando la gente me pregunta qué lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y las herramientas de trabajo que se utilizan.&lt;/p&gt;
+&lt;p&gt;Cuando la gente me pregunta qué lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y las herramientas de trabajo que se utilizan en el proceso.&lt;/p&gt;
 
 &lt;p&gt;Con sistemas web modernos me refiero a aplicaciones cuya infraestructura es similar a lo que hacen las empresas más exitosas de tecnología. Empresas como Google, Facebook, Twitter, Dropbox, Slack, Spotify, etc…&lt;/p&gt;
 
@@ -30,7 +30,7 @@
 
 &lt;p&gt;Estos últimos no son formas de programar o funciones de los lenguajes de programación. Son más bien la manera en que se piensa cómo interactúan las partes del código y la separación de responsabilidades y abtracción de tareas que realiza cada parte del código.&lt;/p&gt;
 
-&lt;p&gt;En esta guía se utilizaran dos &lt;i&gt;frameworks&lt;/i&gt;:&lt;/p&gt;
+&lt;p&gt;En esta guía se utilizarán dos &lt;i&gt;frameworks&lt;/i&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
