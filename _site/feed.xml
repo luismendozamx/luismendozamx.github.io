@@ -6,44 +6,52 @@
 </description>
     <link>http://mendoza.io/</link>
     <atom:link href="http://mendoza.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Jan 2016 12:07:39 -0600</pubDate>
-    <lastBuildDate>Sat, 16 Jan 2016 12:07:39 -0600</lastBuildDate>
+    <pubDate>Sun, 17 Jan 2016 11:10:22 -0600</pubDate>
+    <lastBuildDate>Sun, 17 Jan 2016 11:10:22 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Una Guía para aprender a crear aplicaciones web modernas con Ruby on Rails y Ember.js (Introducción)</title>
-        <description>&lt;p&gt;Es difícil darse cuenta qué rápido se mueve el mundo de la tecnología. Para los que nos dedicamos —o queremos dedicar— a esto de la &lt;i&gt;programación&lt;/i&gt; puede llegar a ser una tarea arbumadora entender qué lenguajes y frameworks aprender. Yo pasé por ahí. La realidad es que existe un mundo increíble de documentación y conocimiento listo para ser consumido, pero saber por dónde empezar es como empezar a aprender otro idioma.&lt;/p&gt;
+        <description>&lt;p&gt;Es fácil darse cuenta lo rápido que se mueve el mundo de la tecnología. Todo el tiempo hay algo nuevo y mejor que lo anterior y constantemente nos adaptamos a nuevas maneras de utilizar, automatizar y crear con tecnología. Sin embargo, el cambio nunca es fácil y decidir tampoco.&lt;/p&gt;
 
-&lt;p&gt;Hay que meterse en un mundo lleno de git, GET, POST, jQuery, AJAX, SaSS, SQL, NoSQl, REST, foo, baz, var y quien sabe que otras palabras. Un millón y medio de términos que hay que entender en algún momento para ser un profesional del desarrollo de aplicaciones web y/o móviles. Y a eso se le tiene que agregar la de por sí compleja tarea de programar.&lt;/p&gt;
+&lt;p&gt;Para los que nos dedicamos —o queremos dedicar— a esto de la &lt;i&gt;programación&lt;/i&gt;, con tantos cambios y nuevas tendencias, escoger qué lenguajes y herramientas aprender puede llegar a ser una tarea arbumadora.&lt;/p&gt;
 
-&lt;p&gt;Cuando la gente me pregunta qué lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y utilizar herramientas que cumplen con estos requerimientos.&lt;/p&gt;
+&lt;p&gt;Yo también pasé por ahí.&lt;/p&gt;
 
-&lt;p&gt;Con sistemas web modernos me refiero a aplicaciones cuya infraestructura es similar a lo que hacen las empresas más exitosas de tecnología. Me refiero a empresas como Google, Facebook, Twitter, Dropbox, Slack, Spotify, etc…&lt;/p&gt;
+&lt;p&gt;Existe un mundo increíble de documentación y conocimiento listo para ser consumido, pero saber por dónde empezar es como empezar a aprender otro idioma.&lt;/p&gt;
+
+&lt;p&gt;Hay que meterse en un mundo lleno de &lt;em&gt;git, GET, POST, jQuery, AJAX, SaSS, SQL, NoSQl, REST, foo, baz, var&lt;/em&gt; y quien sabe que otras palabras. Un millón y medio de términos que hay que entender en algún momento para ser un profesional del desarrollo de aplicaciones web y/o móviles. Y a eso se le tiene que agregar la de por sí compleja tarea de programar.&lt;/p&gt;
+
+&lt;p&gt;Cuando la gente me pregunta qué lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y las herramientas de trabajo que se utilizan.&lt;/p&gt;
+
+&lt;p&gt;Con sistemas web modernos me refiero a aplicaciones cuya infraestructura es similar a lo que hacen las empresas más exitosas de tecnología. Empresas como Google, Facebook, Twitter, Dropbox, Slack, Spotify, etc…&lt;/p&gt;
 
 &lt;p&gt;Las herremientas que vamos a utilizar son &lt;a href=&quot;https://es.wikipedia.org/wiki/Ruby_on_Rails&quot;&gt;&lt;i&gt;frameworks&lt;/i&gt;&lt;/a&gt;. Librerías de código que simplifican el proceso de desarrollo y abstraen las tareas repetitivas y código base que todas las aplicaciones requieren. Pero ese es solamente un beneficio agregado de utilizar un &lt;i&gt;framework&lt;/i&gt;. La ventaja principal y razón de ser de un &lt;i&gt;framework&lt;/i&gt; es el uso de &lt;i&gt;patrones de diseño&lt;/i&gt;.&lt;/p&gt;
 
-&lt;p&gt;Estos últimos no son formas de programar o funciones de los lenguajes de programación, son más bien la manera en que se piensa como interactúan las partes del código.&lt;/p&gt;
+&lt;p&gt;Estos últimos no son formas de programar o funciones de los lenguajes de programación. Son más bien la manera en que se piensa cómo interactúan las partes del código y la separación de responsabilidades y abtracción de tareas que realiza cada parte del código.&lt;/p&gt;
 
 &lt;p&gt;En esta guía se utilizaran dos &lt;i&gt;frameworks&lt;/i&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
     &lt;h5 id=&quot;ruby-on-rails&quot;&gt;Ruby on Rails:&lt;/h5&gt;
-    &lt;p&gt;Escrito en &lt;a href=&quot;https://es.wikipedia.org/wiki/Ruby&quot;&gt;Ruby&lt;/a&gt; y considerado como uno de los padres de los &lt;i&gt;frameworks&lt;/i&gt; web. Con éste se desarrolló la versión inicial de Twitter y es utilizado en empresas como Github y Airbnb. Lo utilizaremos para construir el &lt;a href=&quot;https://en.wikipedia.org/wiki/Application_programming_interface&quot;&gt;API&lt;/a&gt; (término que será explicado más tarde) de nuestro aplicación. Éste será el &lt;i&gt;backend&lt;/i&gt; de nuestra aplicación.&lt;/p&gt;
+    &lt;p&gt;Escrito en &lt;a href=&quot;https://es.wikipedia.org/wiki/Ruby&quot;&gt;Ruby&lt;/a&gt; y considerado como uno de los padres de los &lt;i&gt;frameworks&lt;/i&gt; web. Con éste se desarrolló la versión inicial de Twitter y es utilizado en empresas como Github y Airbnb. Lo utilizaremos para construir el &lt;a href=&quot;https://en.wikipedia.org/wiki/Application_programming_interface&quot;&gt;API&lt;/a&gt; (término que será explicado más tarde) de nuestro aplicación. Éste será el &lt;i&gt;backend&lt;/i&gt; de la aplicación.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h5 id=&quot;emberjs&quot;&gt;Ember.js:&lt;/h5&gt;
-    &lt;p&gt;Escrito en &lt;a href=&quot;https://es.wikipedia.org/wiki/JavaScript&quot;&gt;JavaScript&lt;/a&gt;, es un &lt;i&gt;framework&lt;/i&gt; para construir apliciones web de lado del cliente, &lt;i&gt;i.e.&lt;/i&gt; que se ejecutan en el navegador del usuario. Este tipo de aplicaciones son llamadas &lt;a href=&quot;https://es.wikipedia.org/wiki/Single-page_application&quot;&gt;&lt;i&gt;Single Page Applications&lt;/i&gt;&lt;/a&gt;. Un ejemplo de estas es la página web de Netflix o el reproductor web de Spotify. Éste será el &lt;i&gt;frontend&lt;/i&gt; de nuestra aplicación.&lt;/p&gt;
+    &lt;p&gt;Escrito en &lt;a href=&quot;https://es.wikipedia.org/wiki/JavaScript&quot;&gt;JavaScript&lt;/a&gt;, es un &lt;i&gt;framework&lt;/i&gt; para construir apliciones web de lado del cliente, &lt;i&gt;i.e.&lt;/i&gt; que se ejecutan en el navegador del usuario. Este tipo de aplicaciones son llamadas &lt;a href=&quot;https://es.wikipedia.org/wiki/Single-page_application&quot;&gt;&lt;i&gt;Single Page Applications&lt;/i&gt;&lt;/a&gt;. Un ejemplo de estas es la página web de Netflix o el reproductor web de Spotify. Éste será el &lt;i&gt;frontend&lt;/i&gt; de la aplicación.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;a-quin-va-dirigida-esta-gua&quot;&gt;¿A quién va dirigida esta guía?&lt;/h4&gt;
 
-&lt;p&gt;El contenido de estos posts no está dirigido a quienes están aprendiendo a programar. Está, más bien, pensado para alguien que tiene nociones generales de programación y conoce principios de &lt;a href=&quot;https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos&quot;&gt;programación orientada a objetos&lt;/a&gt; y el funcionamiento de por lo menos algún lenguaje de &lt;a href=&quot;https://en.wikipedia.org/wiki/Scripting_language&quot;&gt;scripting&lt;/a&gt; (Python, PHP, Perl, Ruby, JavaScript, etc). El objetivo es aprender los conceptos claves del desarrollo web moderno a través de construir una aplicación.&lt;/p&gt;
+&lt;p&gt;El contenido de estos posts no está dirigido a quienes están aprendiendo a programar. Está, más bien, pensado para alguien que tiene nociones generales de programación y conoce principios de &lt;a href=&quot;https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos&quot;&gt;programación orientada a objetos&lt;/a&gt; y el funcionamiento de por lo menos algún lenguaje de &lt;a href=&quot;https://en.wikipedia.org/wiki/Scripting_language&quot;&gt;scripting&lt;/a&gt; (Python, PHP, Perl, Ruby, JavaScript, etc).&lt;/p&gt;
 
-&lt;p&gt;Al final de una serie de posts será más fácil entender cuáles son las herramientas que hay que aprender para construir aplicaciones web modernas.&lt;/p&gt;
+&lt;p&gt;El objetivo es aprender los conceptos claves del desarrollo web moderno a través de construir una aplicación. Por lo que no me dentendré a explicar funciones específicas de los lenguajes que utilizaremos. Pero esto no debe ser un inconveniente o problema para cualquiera que pueda programar un algoritmo sencillo con un lenguaje como Java, C#, C++, Python o cualquier otro lenguaje de alto nivel.&lt;/p&gt;
 
-&lt;p&gt;Esta guía será publicada en una serie de posts.&lt;/p&gt;
+&lt;p&gt;Al final de esta serie de posts será más fácil entender cuáles son las herramientas que hay que aprender para construir aplicaciones web modernas.&lt;/p&gt;
+
+&lt;p&gt;Esta guía será publicada en las siguientes partes:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Parte 1: La arquitectura de una aplicación web moderna&lt;/li&gt;
