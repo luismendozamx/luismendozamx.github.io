@@ -103,6 +103,15 @@ article{
       background-repeat: repeat-x;
       background-size: 2px 2px;
       background-position: 0 21px;
+
+      @media only screen and (max-width: 778px){
+        background-position: 0 18px;
+      }
+    }
+
+    @media only screen and (max-width: 778px){
+      font-size: 18px;
+      background-position: 0 18px;
     }
   }
 
