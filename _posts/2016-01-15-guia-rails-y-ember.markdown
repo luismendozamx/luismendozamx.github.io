@@ -27,13 +27,13 @@ Estos últimos no son formas de programar o funciones de los lenguajes de progra
 
 En esta guía se utilizarán dos <i>frameworks</i>:
 
-* #####Ruby on Rails:
+* ##### Ruby on Rails:
 Escrito en [Ruby](https://es.wikipedia.org/wiki/Ruby) y considerado como uno de los padres de los <i>frameworks</i> web. Con éste se desarrolló la versión inicial de Twitter y es utilizado en empresas como Github y Airbnb. Lo utilizaremos para construir el [API](https://en.wikipedia.org/wiki/Application_programming_interface) (término que será explicado más tarde) de nuestro aplicación. Éste será el <i>backend</i> de la aplicación.
 
-* #####Ember.js:
+* ##### Ember.js:
 Escrito en [JavaScript](https://es.wikipedia.org/wiki/JavaScript), es un <i>framework</i> para construir apliciones web de lado del cliente, <i>i.e.</i> que se ejecutan en el navegador del usuario. Este tipo de aplicaciones son llamadas <a href="https://es.wikipedia.org/wiki/Single-page_application"><i>Single Page Applications</i></a>. Un ejemplo de estas es la página web de Netflix o el reproductor web de Spotify. Éste será el <i>frontend</i> de la aplicación.
 
-####¿A quién va dirigida esta guía?
+#### ¿A quién va dirigida esta guía?
 
 El contenido de estos posts no está dirigido a quienes están aprendiendo a programar. Está, más bien, pensado para alguien que tiene nociones generales de programación y conoce principios de [programación orientada a objetos](https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos) y el funcionamiento de por lo menos algún lenguaje de [scripting](https://en.wikipedia.org/wiki/Scripting_language) (Python, PHP, Perl, Ruby, JavaScript, etc).
 
