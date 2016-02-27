@@ -5871,20 +5871,18 @@ body {
 article a {
   color: #333333;
   text-decoration: none;
-  background-image: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.6) 50%);
-  background-repeat: repeat-x;
-  background-size: 2px 2px;
-  background-position: 0 21px; }
+  border-bottom: 2px solid #b3b3b3; }
   article a:hover {
-    color: gray;
+    color: #333333;
     text-decoration: none;
-    background-image: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.6) 50%);
-    background-repeat: repeat-x;
-    background-size: 2px 2px;
-    background-position: 0 21px; }
+    border-bottom: 2px solid gray; }
     @media only screen and (max-width: 778px) {
       article a:hover {
         background-position: 0 18px; } }
+  article a:focus {
+    color: #333333;
+    text-decoration: none;
+    outline: none; }
   @media only screen and (max-width: 778px) {
     article a {
       font-size: 18px;
