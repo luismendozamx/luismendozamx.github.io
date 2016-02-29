@@ -5825,6 +5825,17 @@ body {
   padding-top: 40px;
   padding-bottom: 40px; }
 
+#recent-posts .post-link {
+  padding-bottom: 15px; }
+#recent-posts h4 {
+  line-height: 1.5; }
+#recent-posts a {
+  color: #333;
+  border-bottom: 2px solid #b3b3b3; }
+  #recent-posts a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid gray; }
+
 #footer {
   padding-top: 20px;
   padding-bottom: 20px;
