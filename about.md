@@ -3,9 +3,9 @@ layout: page
 title: About
 permalink: /about/
 excerpt: >
-  Luis Mendoza (@luismendozamx) is a web developer and wedding
+  Luis Mendoza (@luismendozamx) is a web developer and
   photographer from Mexico City.
-  He specializes in Javascript and Ruby using Ember.js and Rails.
+  He specializes in Javascript and Ruby using Ember, React, Angular and Rails.
 ---
 
 Hi! My name is Luis Enrique Mendoza.

@@ -7,11 +7,11 @@
 
 # Site settings
 brand: Luis Mendoza
-title: Luis Mendoza | web developer and wedding photographer
+title: Luis Mendoza | web developer and photographer
 email: luis@mendoza.io
 description: > # this means to ignore newlines until "baseurl:"
-  Luis Mendoza (@luismendozamx) is a web developer and wedding photographer from Mexico City.
-  He specializes in Javascript and Ruby using Ember.js and Rails.
+  Luis Mendoza (@luismendozamx) is a web developer and photographer from Mexico City.
+  He specializes in Javascript and Ruby using Ember, React, Angular and Rails.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mendoza.io" # the base hostname & protocol for your site
 twitter_username: luismendozamx
