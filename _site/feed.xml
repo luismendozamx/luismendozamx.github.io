@@ -6,9 +6,35 @@
 </description>
     <link>http://mendoza.io/</link>
     <atom:link href="http://mendoza.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Sep 2016 23:43:52 -0500</pubDate>
-    <lastBuildDate>Thu, 01 Sep 2016 23:43:52 -0500</lastBuildDate>
-    <generator>Jekyll v3.0.3</generator>
+    <pubDate>Sun, 21 Jan 2018 23:44:46 -0600</pubDate>
+    <lastBuildDate>Sun, 21 Jan 2018 23:44:46 -0600</lastBuildDate>
+    <generator>Jekyll v3.0.5</generator>
+    
+      <item>
+        <title>Culture</title>
+        <description>&lt;p&gt;Culture matters. It matters in every sphere of our social interactions. It is also &lt;em&gt;widely&lt;/em&gt; different in each of these social environments.&lt;/p&gt;
+
+&lt;p&gt;I’m no scientist, nor will I pretend to be one in this post. What I want to talk about is &lt;em&gt;engineering culture&lt;/em&gt;, something I’ve had the pleasure of dealing with in diverse environments.&lt;/p&gt;
+
+&lt;p&gt;In the past, I’ve worked as some form of developer or engineer (not the same thing, titles are an important part of culture) at an agency, freelancing, failing at launching a startup (twice), two startups and a big financial institution. I’ve focused mostly on product development, that is, building applications to sell some kind of service/good, or paid for in a Software As a Service model. In every single one of these experiences I’ve learned that engineering culture is one of the hardest things to get right when running a company that sells or uses technology as part of their core business.&lt;/p&gt;
+
+&lt;p&gt;So, how can we define engineering culture? What aspects should it cover? And more importantly, what impact can it have on your organization and it’s business outcomes? ‘Cause at the end of the day, we are all trying to make money out of of this, right?&lt;/p&gt;
+
+&lt;h3 id=&quot;every-company-is-a-technology-company&quot;&gt;Every company is a technology company…&lt;/h3&gt;
+
+&lt;p&gt;I like to agree when people say this. But that doesn’t mean every company should approach technology the same way. If what you do involves hiring “programmers” as full-time employees and having them write code that will be used as part of your core business, then you should definitely be thinking about building the right engineering culture.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-engineering-culture&quot;&gt;What is engineering culture?&lt;/h3&gt;
+
+</description>
+        <pubDate>Sun, 21 Jan 2018 23:44:46 -0600</pubDate>
+        <link>http://mendoza.io/en/2018/01/21/engineering/</link>
+        <guid isPermaLink="true">http://mendoza.io/en/2018/01/21/engineering/</guid>
+        
+        
+        <category>en</category>
+        
+      </item>
     
       <item>
         <title>Plática: Intro a Ember</title>
@@ -33,66 +59,6 @@
         <pubDate>Mon, 02 May 2016 00:00:00 -0500</pubDate>
         <link>http://mendoza.io/es/2016/05/02/intro-a-ember-talk/</link>
         <guid isPermaLink="true">http://mendoza.io/es/2016/05/02/intro-a-ember-talk/</guid>
-        
-        
-        <category>es</category>
-        
-      </item>
-    
-      <item>
-        <title>Una Guía para aprender a crear aplicaciones web modernas con Ruby on Rails y Ember.js (Introducción)</title>
-        <description>&lt;p&gt;Es fácil darse cuenta lo rápido que se mueve el mundo de la tecnología. Todo el tiempo hay algo nuevo y mejor que lo anterior y constantemente nos adaptamos a nuevas maneras de utilizar, automatizar y crear con tecnología. Sin embargo, el cambio nunca es fácil y decidir tampoco.&lt;/p&gt;
-
-&lt;p&gt;Para los que nos dedicamos —o queremos dedicar— a esto de la &lt;i&gt;programación&lt;/i&gt;, con tantos cambios y nuevas tendencias, escoger qué lenguajes y herramientas aprender puede llegar a ser una tarea abrumadora.&lt;/p&gt;
-
-&lt;p&gt;Yo también pasé por ahí.&lt;/p&gt;
-
-&lt;p&gt;Existe un mundo increíble de documentación y conocimiento listo para ser consumido, pero saber por dónde empezar es como empezar a aprender otro idioma.&lt;/p&gt;
-
-&lt;p&gt;Hay que meterse en un mundo lleno de &lt;em&gt;git, GET, POST, jQuery, AJAX, SaSS, SQL, NoSQl, REST, foo, baz, var&lt;/em&gt; y quien sabe que otras palabras. Un millón y medio de términos que hay que entender en algún momento para ser un profesional del desarrollo de aplicaciones web y/o móviles. Y a eso, se le tiene que agregar la de por sí compleja tarea de programar.&lt;/p&gt;
-
-&lt;p&gt;Cuando la gente me pregunta qué lenguaje les recomiendo para aprender a programar nunca tengo la respuesta correcta. Y esta guía no se trata de contestar esa pregunta. Aquí, la idea es aprender cuales son los componentes necesarios para crear sistemas web modernos y las herramientas de trabajo que se utilizan en el proceso.&lt;/p&gt;
-
-&lt;p&gt;Con sistemas web modernos me refiero a aplicaciones cuya infraestructura es similar a lo que hacen las empresas de tecnología más exitosas. Empresas como Google, Facebook, Twitter, Dropbox, Slack, Spotify, etc…&lt;/p&gt;
-
-&lt;p&gt;Las herramientas que vamos a utilizar son &lt;a href=&quot;https://es.wikipedia.org/wiki/Ruby_on_Rails&quot;&gt;&lt;i&gt;frameworks&lt;/i&gt;&lt;/a&gt;. Librerías de código que simplifican el proceso de desarrollo y abstraen las tareas repetitivas y código base que todas las aplicaciones requieren. Pero ese es solamente un beneficio agregado de utilizar un &lt;i&gt;framework&lt;/i&gt;. La ventaja principal y razón de ser de un &lt;i&gt;framework&lt;/i&gt; es el uso de &lt;i&gt;patrones de diseño&lt;/i&gt;.&lt;/p&gt;
-
-&lt;p&gt;Estos últimos no son formas de programar o funciones de los lenguajes de programación. Son, más bien, la manera en que se piensa y estructura la interacción entre las partes de un sistema. Definen la manera de acomodar y esribir código. También se especifican la separación de responsabilidades y abstracción de tareas que realiza cada parte del código.&lt;/p&gt;
-
-&lt;p&gt;En esta guía se utilizarán dos &lt;i&gt;frameworks&lt;/i&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h5 id=&quot;ruby-on-rails&quot;&gt;Ruby on Rails:&lt;/h5&gt;
-    &lt;p&gt;Escrito en &lt;a href=&quot;https://es.wikipedia.org/wiki/Ruby&quot;&gt;Ruby&lt;/a&gt; y considerado como uno de los padres de los &lt;i&gt;frameworks&lt;/i&gt; web. Con éste se desarrolló la versión inicial de Twitter y es utilizado en empresas como Github y Airbnb. Lo utilizaremos para construir el &lt;a href=&quot;https://en.wikipedia.org/wiki/Application_programming_interface&quot;&gt;API&lt;/a&gt; (término que será explicado más tarde) de nuestro aplicación. Éste será el &lt;i&gt;backend&lt;/i&gt; de la aplicación.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h5 id=&quot;emberjs&quot;&gt;Ember.js:&lt;/h5&gt;
-    &lt;p&gt;Escrito en &lt;a href=&quot;https://es.wikipedia.org/wiki/JavaScript&quot;&gt;JavaScript&lt;/a&gt;, es un &lt;i&gt;framework&lt;/i&gt; para construir apliciones web de lado del cliente, &lt;i&gt;i.e.&lt;/i&gt; que se ejecutan en el navegador del usuario. Este tipo de aplicaciones son llamadas &lt;a href=&quot;https://es.wikipedia.org/wiki/Single-page_application&quot;&gt;&lt;i&gt;Single Page Applications&lt;/i&gt;&lt;/a&gt;. Un ejemplo de estas es la página web de Netflix o el reproductor web de Spotify. Éste será el &lt;i&gt;frontend&lt;/i&gt; de la aplicación.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;a-quin-va-dirigida-esta-gua&quot;&gt;¿A quién va dirigida esta guía?&lt;/h4&gt;
-
-&lt;p&gt;El contenido de estos posts no está dirigido a quienes están aprendiendo a programar. Está, más bien, pensado para alguien que tiene nociones generales de programación y conoce principios de &lt;a href=&quot;https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos&quot;&gt;programación orientada a objetos&lt;/a&gt; y el funcionamiento de por lo menos algún lenguaje de &lt;a href=&quot;https://en.wikipedia.org/wiki/Scripting_language&quot;&gt;scripting&lt;/a&gt; (Python, PHP, Perl, Ruby, JavaScript, etc).&lt;/p&gt;
-
-&lt;p&gt;El objetivo es aprender los conceptos claves del desarrollo web moderno a través de construir una aplicación. Por lo que no me dentendré a explicar funciones específicas de los lenguajes que utilizaremos. Esto no debe ser un inconveniente o problema para cualquiera que pueda programar un algoritmo sencillo con un lenguaje como Java, C#, C++, Python o cualquier otro lenguaje de alto nivel.&lt;/p&gt;
-
-&lt;p&gt;Al final de esta serie de posts será más fácil entender cuáles son las herramientas que hay que aprender y utilizar para construir aplicaciones web modernas.&lt;/p&gt;
-
-&lt;p&gt;Esta guía será publicada en las siguientes partes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Parte 1: La arquitectura de una aplicación web moderna&lt;/li&gt;
-  &lt;li&gt;Parte 2: Setup para desarrollar aplicaciones con Ruby on Rails y Ember.js&lt;/li&gt;
-  &lt;li&gt;Parte 3: Desarrollo de un API con Ruby on Rails&lt;/li&gt;
-  &lt;li&gt;Parte 4: Desarrollo de un SPA con Ember.js y ember-cli&lt;/li&gt;
-  &lt;li&gt;Parte 5: Despliegue de aplicaciones web usando Heroku y AWS&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 15 Jan 2016 19:00:00 -0600</pubDate>
-        <link>http://mendoza.io/es/2016/01/15/guia-rails-y-ember/</link>
-        <guid isPermaLink="true">http://mendoza.io/es/2016/01/15/guia-rails-y-ember/</guid>
         
         
         <category>es</category>
