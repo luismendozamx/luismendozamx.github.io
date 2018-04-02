@@ -6,6 +6,7 @@
 </description>
     <link>http://mendoza.io/</link>
     <atom:link href="http://mendoza.io/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
     <pubDate>Sun, 21 Jan 2018 23:44:46 -0600</pubDate>
     <lastBuildDate>Sun, 21 Jan 2018 23:44:46 -0600</lastBuildDate>
     <generator>Jekyll v3.0.5</generator>
@@ -30,6 +31,29 @@
         <pubDate>Sun, 21 Jan 2018 23:44:46 -0600</pubDate>
         <link>http://mendoza.io/en/2018/01/21/engineering/</link>
         <guid isPermaLink="true">http://mendoza.io/en/2018/01/21/engineering/</guid>
+        
+        
+        <category>en</category>
+        
+      </item>
+=======
+    <pubDate>Wed, 13 Dec 2017 00:07:16 -0600</pubDate>
+    <lastBuildDate>Wed, 13 Dec 2017 00:07:16 -0600</lastBuildDate>
+    <generator>Jekyll v3.0.3</generator>
+>>>>>>> Update site
+    
+      <item>
+        <title>Thoughts on scaling agile</title>
+        <description>&lt;h2 id=&quot;what-makes-an-organization-agile&quot;&gt;What makes an organization Agile?&lt;/h2&gt;
+
+&lt;p&gt;Agile has been around for quite a while now. It’s not recent news that many organizations, from startups to big enterprises, have successfully scaled and improved the way they approach product development and software engineering by applying agile methodologies and practices in one way or another.&lt;/p&gt;
+
+&lt;p&gt;Most of the so called &lt;em&gt;unicorns&lt;/em&gt; where born in  agile. Other adopted some way of scaling their startup
+But some organizations are still in the early days of &lt;em&gt;adopting&lt;/em&gt; agile methodologies and practices. There are numerous stories about big enterprises that have successfully transformed themselves into revitalized innovation-driven.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Dec 2017 19:00:00 -0600</pubDate>
+        <link>http://mendoza.io/en/2017/12/01/a-word-on-agile/</link>
+        <guid isPermaLink="true">http://mendoza.io/en/2017/12/01/a-word-on-agile/</guid>
         
         
         <category>en</category>
