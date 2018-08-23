@@ -1,0 +1,17 @@
+{
+  "name": "mendoza.io",
+  "version": "3.0.0",
+  "description": "my site",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luismendozamx/mendoza.io.git"
+  },
+  "author": "Luis Mendoza <luis@mendoza.io>",
+  "dependencies": {
+    "ghost": "2.*"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
