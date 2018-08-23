@@ -1,4 +1,3 @@
-const ghost = require('ghost');
+const ghost = require("ghost");
 
-ghost()
-  .then(ghostServer => ghostServer.start());
+ghost().then(ghostServer => ghostServer.start());
