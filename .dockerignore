@@ -1,0 +1,7 @@
+.git
+Dockerfile
+.DS_Store
+.gitignore
+env.*
+ghost-dev.db
+node_modules
