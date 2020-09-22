@@ -1,0 +1,35 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: blog-certificate
+spec:
+  secretName: blog-certificate
+  dnsNames:
+  - mendoza.io
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+---
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: blog-certificate-2
+spec:
+  secretName: blog-certificate-2
+  dnsNames:
+  - blog.mendoza.io
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+---
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: luismendozamx-certificate
+spec:
+  secretName: luismendozamx-certificate
+  dnsNames:
+  - luismendoza.mx
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer

@@ -1,0 +1,44 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mendoza
+spec:
+  selector:
+    app: mendoza
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 2368
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mendoza
+  labels:
+    app: mendoza
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mendoza
+  template:
+    metadata:
+      labels:
+        app: mendoza
+    spec:
+      containers:
+      - name: mendoza
+        image: ghost:2.6-alpine
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 2368
+        env:
+        - name: url
+          value: https://mendoza.io
+        volumeMounts:
+        - mountPath: /var/lib/ghost/content
+          name: content
+      volumes:
+      - name: content
+        persistentVolumeClaim:
+          claimName: blog-content

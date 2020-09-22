@@ -1,0 +1,66 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: mendoza-ingress
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/proxy-body-size: 4m
+spec:
+  tls:
+  - hosts:
+    - mendoza.io
+    secretName: blog-certificate
+  rules:
+  - host: mendoza.io
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: mendoza
+          servicePort: 80
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: mendoza-ingress-2
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  tls:
+  - hosts:
+    - blog.mendoza.io
+    secretName: blog-certificate-2
+  rules:
+  - host: blog.mendoza.io
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: mendoza
+          servicePort: 80
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: luismendozamx-ingress
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  tls:
+  - hosts:
+    - luismendoza.mx
+    secretName: luismendozamx-certificate
+  rules:
+  - host: luismendoza.mx
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: mendoza
+          servicePort: 80
